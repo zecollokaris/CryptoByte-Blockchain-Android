@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/cryptologo1" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/slideheading"
         android:layout_width="120dp"
         android:layout_height="35dp"
         android:layout_centerInParent="true"
@@ -28,7 +28,7 @@
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/slidedesc"
         android:layout_width="265dp"
         android:layout_height="140dp"
         android:layout_alignParentBottom="true"
