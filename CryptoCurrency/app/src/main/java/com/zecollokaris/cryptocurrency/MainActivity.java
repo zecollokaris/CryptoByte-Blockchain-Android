@@ -4,6 +4,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -21,6 +22,12 @@ public class MainActivity extends AppCompatActivity {
     private Button mNextBtn;
     private Button mBackBtn;
 
+    private int mCurrentPage;
+
+
+//##################################################################################################
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
         //VIEWSLIDERS
         mSlideViewPager = (ViewPager) findViewById(R.id.slideViewPager);
         mDotLayout = (LinearLayout) findViewById(R.id.dotsLayout);
+
+        //BUTTONS
+        mNextBtn = (Button) findViewById(R.id.nxtBtn);
+        mBackBtn = (Button) findViewById(R.id.prevBtn);
 
         //SLIDER ADAPTER
         sliderAdapter = new SliderAdapter(this);
@@ -73,6 +84,17 @@ public class MainActivity extends AppCompatActivity {
         public void onPageSelected(int i) {
 
             addDotsIndicator(i);
+
+            mCurrentPage = i;
+
+            if(i == 0){
+                mNextBtn.setEnabled(true);
+                mBackBtn.setEnabled(false);
+                mBackBtn.setVisibility(View.INVISIBLE);
+
+                mNextBtn.setText("Next");
+                mBackBtn.setText();
+            }
         }
 
         @Override
