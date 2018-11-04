@@ -19,5 +19,25 @@
         android:layout_centerHorizontal="true"
         android:orientation="vertical"></LinearLayout>
 
+    <Button
+        android:id="@+id/prevBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorWhite"
+        android:background="@android:color/transparent"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/nxtBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorWhite"
+        android:background="@android:color/transparent"
+        android:text="Next" />
+
 
 </RelativeLayout>
