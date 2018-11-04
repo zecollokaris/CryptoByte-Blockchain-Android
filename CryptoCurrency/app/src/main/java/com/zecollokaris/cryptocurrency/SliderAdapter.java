@@ -79,6 +79,7 @@ public class SliderAdapter extends PagerAdapter {
     }
 
 
-   
+    @Override
+    public void destroyItem(ViewGroup container)
 
 }
