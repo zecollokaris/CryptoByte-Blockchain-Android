@@ -93,7 +93,16 @@ public class MainActivity extends AppCompatActivity {
                 mBackBtn.setVisibility(View.INVISIBLE);
 
                 mNextBtn.setText("Next");
-                mBackBtn.setText();
+                mBackBtn.setText("");
+
+            } else if (i == mDots.length) {
+                mNextBtn.setEnabled(true);
+                mBackBtn.setEnabled(true);
+                mBackBtn.setVisibility(View.VISIBLE);
+
+                mNextBtn.setText("Finish");
+                mBackBtn.setText("Back");
+
             }
         }
 
