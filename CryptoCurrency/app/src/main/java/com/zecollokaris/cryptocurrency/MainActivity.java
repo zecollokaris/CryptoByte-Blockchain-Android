@@ -50,6 +50,22 @@ public class MainActivity extends AppCompatActivity {
         //Page listener for Shift in position of Pages
         mSlideViewPager.addOnPageChangeListener(viewListener);
 
+
+        //OnClickListeners
+        mNextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mSlideViewPager.setCurrentItem(mCurrentPage + 1);
+            }
+        });
+
+        mBackBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mSlideViewPager.setCurrentItem(mCurrentPage - 1);
+            }
+        });
+
     }
 
 //  ADDS DOT SLIDER FOR CODE!
