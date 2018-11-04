@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padddingLeft="18dp"
-    android:paddingRight="18dp">
+    android:background="@drawable/crypto3dark">
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/SlideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="521dp"
+        android:layout_alignParentTop="true"></android.support.v4.view.ViewPager>
 
+    <LinearLayout
+        android:id="@+id/DotsLayout"
+        android:layout_width="96dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"></LinearLayout>
 
 
 </RelativeLayout>
