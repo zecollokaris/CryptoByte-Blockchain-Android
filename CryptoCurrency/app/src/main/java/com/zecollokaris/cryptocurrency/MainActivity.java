@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         addDotsIndicator(0);
 
+        //Page listener for Shift in position of Pages
         mSlideViewPager.addOnPageChangeListener(viewListener);
 
     }
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     public void addDotsIndicator(int position){
 
         mDots = new TextView[3];
+        mDotLayout.removeAllViews();
 
         for(int i = 0; i < mDots.length; i++){
 
