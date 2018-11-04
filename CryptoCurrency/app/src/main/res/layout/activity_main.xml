@@ -25,9 +25,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:textColor="@color/colorWhite"
         android:background="@android:color/transparent"
-        android:text="Back" />
+        android:text="Back"
+        android:textColor="@color/colorWhite"
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/nxtBtn"
