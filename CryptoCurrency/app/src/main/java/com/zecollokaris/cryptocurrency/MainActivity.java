@@ -3,13 +3,17 @@ package com.zecollokaris.cryptocurrency;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private ViewPager mSlideViewPager;
-    private LinearLayout mDotsLayout;
-    //TEXT VIEW T
+    private LinearLayout mDotLayout;
+    //TEXT VIEW TO HOLD DOT SLIDERS!
+    private TextView[] mDots;
+
     private SliderAdapter sliderAdapter;
 
     @Override
@@ -19,12 +23,33 @@ public class MainActivity extends AppCompatActivity {
 
         //VIEWSLIDERS
         mSlideViewPager = (ViewPager) findViewById(R.id.SlideViewPager);
-        mDotsLayout = (LinearLayout) findViewById(R.id.DotsLayout);
+        mDotLayout = (LinearLayout) findViewById(R.id.DotsLayout);
 
         //SLIDER ADAPTER
         sliderAdapter = new SliderAdapter(this);
         mSlideViewPager.setAdapter(sliderAdapter);
 
+        addDotsIndicator();
 
     }
+
+//  ADDS DOT SLIDER FOR CODE!
+    public void addDotsIndicator(){
+
+        mDots = new TextView[3];
+
+        for(int i = 0; i < mDots.length; i++){
+
+            mDots[i] = new TextView(this);
+            mDots[i].setText(Html.fromHtml("&#8226;"));
+            mDots[i].setTextSize(35);
+            mDots[i].setTextColor(getResources().getColor(R.color.colorTransparentWhite));
+
+            mDotLayout.addView(mDots[i]);
+        }
+
+    }
+
+
+
 }

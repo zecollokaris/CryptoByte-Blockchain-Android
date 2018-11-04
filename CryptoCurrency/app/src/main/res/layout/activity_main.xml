@@ -13,7 +13,7 @@
 
     <LinearLayout
         android:id="@+id/DotsLayout"
-        android:layout_width="96dp"
+        android:layout_width="74dp"
         android:layout_height="42dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
