@@ -50,6 +50,22 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+//  Listener to mark Page!! Using white dot!
+    ViewPager.OnPageChangeListener viewListener = new ViewPager.OnPageChangeListener() {
+        @Override
+        public void onPageScrolled(int i, float v, int i1) {
 
+        }
+
+        @Override
+        public void onPageSelected(int i) {
+
+        }
+
+        @Override
+        public void onPageScrollStateChanged(int i) {
+
+        }
+    };
 
 }
