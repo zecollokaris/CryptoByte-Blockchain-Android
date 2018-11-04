@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         addDotsIndicator(0);
 
-        mSlideViewPager.add
+        mSlideViewPager.addOnPageChangeListener(viewListener);
 
     }
 
