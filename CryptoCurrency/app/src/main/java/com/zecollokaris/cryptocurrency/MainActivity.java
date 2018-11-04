@@ -4,6 +4,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -15,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
     private TextView[] mDots;
 
     private SliderAdapter sliderAdapter;
+
+    //Buttons
+    private Button mNextBtn;
+    private Button mBackBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
