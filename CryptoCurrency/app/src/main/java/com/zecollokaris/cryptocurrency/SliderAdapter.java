@@ -16,6 +16,16 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     //Arrays
+    public int [] slideimages = {
+
+            R.drawable.cryptologo1,
+            R.drawable.cryptologo2,
+            R.drawable.cryptologo4
+    };
+
+    public String [] slideheading = {
+
+    };
 
     @Override
     public int getCount() {

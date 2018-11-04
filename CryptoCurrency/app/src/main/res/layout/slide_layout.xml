@@ -6,11 +6,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/slideimages"
         android:layout_width="239dp"
         android:layout_height="162dp"
         android:layout_alignParentTop="true"
