@@ -25,6 +25,10 @@ public class SliderAdapter extends PagerAdapter {
 
     public String [] slideheading = {
 
+            "EAT",
+            "SLEEP",
+            "CODE"
+
     };
 
     @Override
