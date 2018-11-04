@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 mNextBtn.setText("Next");
                 mBackBtn.setText("");
 
-            } else if (i == mDots.length) {
+            } else if (i == mDots.length -1 ) {
                 mNextBtn.setEnabled(true);
                 mBackBtn.setEnabled(true);
                 mBackBtn.setVisibility(View.VISIBLE);
@@ -103,7 +103,16 @@ public class MainActivity extends AppCompatActivity {
                 mNextBtn.setText("Finish");
                 mBackBtn.setText("Back");
 
+            } else {
+                mNextBtn.setEnabled(true);
+                mBackBtn.setEnabled(true);
+                mBackBtn.setVisibility(View.VISIBLE);
+
+                mNextBtn.setText("Next");
+                mBackBtn.setText("Back");
             }
+
+
         }
 
         @Override
