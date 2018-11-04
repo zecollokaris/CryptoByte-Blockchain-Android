@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mSlideViewPager.setCurrentItem(mCurrentPage - 1);
             }
+            
         });
 
     }
