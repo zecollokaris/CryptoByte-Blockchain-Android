@@ -22,19 +22,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //VIEWSLIDERS
-        mSlideViewPager = (ViewPager) findViewById(R.id.SlideViewPager);
-        mDotLayout = (LinearLayout) findViewById(R.id.DotsLayout);
+        mSlideViewPager = (ViewPager) findViewById(R.id.slideViewPager);
+        mDotLayout = (LinearLayout) findViewById(R.id.dotsLayout);
 
         //SLIDER ADAPTER
         sliderAdapter = new SliderAdapter(this);
         mSlideViewPager.setAdapter(sliderAdapter);
 
-        addDotsIndicator();
+        addDotsIndicator(0);
+
+        mSlideViewPager.add
 
     }
 
 //  ADDS DOT SLIDER FOR CODE!
-    public void addDotsIndicator(){
+    public void addDotsIndicator(int position){
 
         mDots = new TextView[3];
 
@@ -48,9 +50,12 @@ public class MainActivity extends AppCompatActivity {
             mDotLayout.addView(mDots[i]);
         }
 
+        if(mDots.length > 0) {
+            mDots[position].setTextColor(getResources().getColor(R.color.colorWhite));
+        }
+
     }
 
-//  Listener to mark Page!! Using white dot!
     ViewPager.OnPageChangeListener viewListener = new ViewPager.OnPageChangeListener() {
         @Override
         public void onPageScrolled(int i, float v, int i1) {
@@ -60,12 +65,13 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onPageSelected(int i) {
 
+            addDotsIndicator(i);
         }
 
         @Override
         public void onPageScrollStateChanged(int i) {
 
         }
-    };
+    }
 
 }
