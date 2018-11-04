@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ViewPager mSlideViewPager;
     private LinearLayout mDotsLayout;
+    //TEXT VIEW T
     private SliderAdapter sliderAdapter;
 
     @Override
@@ -19,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         //VIEWSLIDERS
         mSlideViewPager = (ViewPager) findViewById(R.id.SlideViewPager);
         mDotsLayout = (LinearLayout) findViewById(R.id.DotsLayout);
+
+        //SLIDER ADAPTER
+        sliderAdapter = new SliderAdapter(this);
+        mSlideViewPager.setAdapter(sliderAdapter);
+
 
     }
 }
