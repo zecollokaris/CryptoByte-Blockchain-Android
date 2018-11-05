@@ -8,14 +8,14 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="521dp"
-        android:layout_alignParentTop="true"/>
+        android:layout_height="452dp"
+        android:layout_alignParentTop="true" />
 
     <LinearLayout
         android:id="@+id/dotsLayout"
         android:layout_width="48dp"
         android:layout_height="42dp"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/button"
         android:layout_centerHorizontal="true"
         android:orientation="horizontal" />
 
@@ -23,8 +23,8 @@
         android:id="@+id/prevBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/slideViewPager"
         android:background="@android:color/transparent"
         android:text="Back"
         android:textColor="@color/colorWhite"
@@ -34,11 +34,21 @@
         android:id="@+id/nxtBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/slideViewPager"
         android:background="@android:color/transparent"
-        android:text="Next" />
+        android:text="Next"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="Get Started"
+        android:textAlignment="center" />
 
 
 </RelativeLayout>

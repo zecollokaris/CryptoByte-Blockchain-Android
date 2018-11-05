@@ -6,6 +6,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
 
     <ImageView
@@ -14,17 +15,19 @@
         android:layout_height="162dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="90dp"
         app:srcCompat="@drawable/cryptologo1" />
 
     <TextView
         android:id="@+id/slideheading"
         android:layout_width="120dp"
         android:layout_height="35dp"
-        android:layout_centerInParent="true"
-        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="172dp"
+        android:text="TextView"
         android:textAlignment="center"
-        android:text="TextView" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/slidedesc"
@@ -32,8 +35,7 @@
         android:layout_height="140dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="70dp"
-        android:textAlignment="center"
-        android:text="sladjfhdsaf asjkdfnsdakfbksda ksndfkbsa knasdfb  jdf dfdk jkadna cakldkn jsd sjd lkna aknlnfla nlaflasf ksadmadn lansldnaldlas k,a j kb  kab ckanaln kajsnlan lanla." />
+        android:text="sladjfhdsaf asjkdfnsdakfbksda ksndfkbsa knasdfb  jdf dfdk jkadna cakldkn jsd sjd lkna aknlnfla nlaflasf ksadmadn lansldnaldlas k,a j kb  kab ckanaln kajsnlan lanla."
+        android:textAlignment="center" />
 
 </RelativeLayout>
