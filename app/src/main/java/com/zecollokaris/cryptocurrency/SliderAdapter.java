@@ -25,7 +25,7 @@ public class SliderAdapter extends PagerAdapter {
 
             R.drawable.cryptowelcome,
             R.drawable.cryptotrusting,
-            R.drawable.cryptologo4
+            R.drawable.cryptorise2
     };
 
     //HEADING SLIDER
