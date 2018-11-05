@@ -39,7 +39,7 @@ public class SliderAdapter extends PagerAdapter {
     //TEXT SLIDER
     public String [] slidedesc ={
 
-            "The technology likely to have a greatest impact over the next decade has just arrived. welcome to a decentralized peer to peer system where trading of money has never been this efficient" +
+            "The technology likely to have a greatest impact over the next decade has just arrived. Welcome to a decentralized peer to peer system where trading of money has never been this efficient" +
                     ".",
             "CryptoByte is your trusted source for live cryptocurrency price charts and real-time cryptocurrency price and trades" +
                     ".",
