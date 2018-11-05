@@ -1,5 +1,6 @@
 package com.zecollokaris.cryptocurrency;
 
+import android.graphics.Typeface;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
     private int mCurrentPage;
 
+    private TextView mSplashText;
+
 
 //##################################################################################################
 
@@ -41,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
         //BUTTONS
         mNextBtn = (Button) findViewById(R.id.nxtBtn);
         mBackBtn = (Button) findViewById(R.id.prevBtn);
+
+        //FONTS FOR SPLASH PAGE!
+//        mSplashText = (TextView) findViewById(R.id.splashText);
+//        Typeface googleFont = Typeface.createFromAsset(getAssets(), "fonts/limelight.ttf");
+//        mSplashText.setTypeface(googleFont);
 
         //SLIDER ADAPTER
         sliderAdapter = new SliderAdapter(this);

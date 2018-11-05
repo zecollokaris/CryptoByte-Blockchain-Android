@@ -23,7 +23,7 @@ public class SliderAdapter extends PagerAdapter {
     //IMAGE SLIDER
     public int [] slideimages = {
 
-            R.drawable.cryptologo1,
+            R.drawable.cryptowelcome,
             R.drawable.cryptologo2,
             R.drawable.cryptologo4
     };
