@@ -13,11 +13,11 @@
 
     <LinearLayout
         android:id="@+id/dotsLayout"
-        android:layout_width="74dp"
+        android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:orientation="vertical"/>
+        android:orientation="horizontal" />
 
     <Button
         android:id="@+id/prevBtn"
