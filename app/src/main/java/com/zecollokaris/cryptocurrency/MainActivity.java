@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+
     private ViewPager mSlideViewPager;
     private LinearLayout mDotLayout;
     //TEXT VIEW TO HOLD DOT SLIDERS!
@@ -100,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onPageSelected(int i) {
 
-            addDotsIndicator(i);
+                addDotsIndicator(i);
 
             mCurrentPage = i;
 
