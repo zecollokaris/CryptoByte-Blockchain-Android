@@ -31,20 +31,20 @@ public class SliderAdapter extends PagerAdapter {
     //HEADING SLIDER
     public String [] slideheading = {
 
-            "EAT",
-            "SLEEP",
-            "CODE"
+            "Welcome",
+            "Trusted",
+            "Access prices"
     };
 
     //TEXT SLIDER
     public String [] slidedesc ={
 
-            "First lorem to test out Code Lorem ipsumaslhflasfn lasfnlaskdbf lsa flasnfs fkasnadk asdkandasdna sdlaskd;adma; dalsdn klsadasd kakskda;sd lasdlaskd admlas dasd" +
-                    "first",
-            "Second lorem to test out Code Lorem ipsumaslhflasfn lasfnlaskdbf lsa flasnfs fkasnadk asdkandasdna sdlaskd;adma; dalsdn klsadasd kakskda;sd lasdlaskd admlas dasd" +
-                    "second",
-            "Third lorem to test out Code Lorem ipsumaslhflasfn lasfnlaskdbf lsa flasnfs fkasnadk asdkandasdna sdlaskd;adma; dalsdn klsadasd kakskda;sd lasdlaskd admlas dasd" +
-                    "third",
+            "The technology likely to have a greatest impact over the next decade has just arrived. welcome to a decentralized peer to peer system where trading of money has never been this efficient" +
+                    ".",
+            "CryptoByte is your trusted source for live cryptocurrency price charts and real-time cryptocurrency price and trades" +
+                    ".",
+            " Get in-depth pricing information on cryptocurrency exchanges and live cryptocurrency trades. Enjoy the latest information to buy Bitcoin, trade in digital currencies" +
+                    ".",
     };
 
     @Override
