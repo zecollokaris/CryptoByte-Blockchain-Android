@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true" />
 
     <ImageView
@@ -25,6 +25,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="172dp"
+        android:textColor="@color/colorWhite"
         android:text="TextView"
         android:textAlignment="center"
         android:textSize="20sp" />
@@ -35,7 +36,8 @@
         android:layout_height="140dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="sladjfhdsaf asjkdfnsdakfbksda ksndfkbsa knasdfb  jdf dfdk jkadna cakldkn jsd sjd lkna aknlnfla nlaflasf ksadmadn lansldnaldlas k,a j kb  kab ckanaln kajsnlan lanla."
+        android:text="This is an input section for text sider"
+        android:textColor="@color/colorTransparentWhite"
         android:textAlignment="center" />
 
 </RelativeLayout>

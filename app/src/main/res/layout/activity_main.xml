@@ -9,7 +9,8 @@
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
         android:layout_height="452dp"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:background="@drawable/cryptobg4ldark" />
 
     <LinearLayout
         android:id="@+id/dotsLayout"
@@ -43,12 +44,14 @@
     <Button
         android:id="@+id/button"
         android:layout_width="312dp"
-        android:layout_height="wrap_content"
+        android:layout_height="37dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="23dp"
+        android:background="@color/colorAccent"
         android:text="Get Started"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@color/colorTransparentWhite" />
 
 
 </RelativeLayout>
