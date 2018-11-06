@@ -30,10 +30,18 @@ Gradle is used as the build tool and can be installed with sdkman:
 sdk install gradle
 ```
 
+3. [Android SDK](https://developer.android.com/studio/)
 
-# **SETUP/INSTALLATION!**
+Android SDK used to provide all the necessary developer tools to build, test, and debug apps for Android in Windows, Mac or Linux.
 
-**{follow the below instructions for set up.}**
+4. [Android Build Tools](https://developer.android.com/studio/releases/build-tools)
+
+Android SDK build tools used to debug, build, run and test an Android application.
+
+
+
+## **SETUP/INSTALLATION!**
+
 
 1. You will need Internet connection.
 
@@ -58,8 +66,9 @@ Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 
 - **[Gradle](https://gradle.org/) for dependency management and running tasks.**
 
-- **[Android](https://developer.android.com/studio/install?pkg=tools) for dependency management and running tasks.**
+- **[Android SDK](https://developer.android.com/studio/) for providing all the necessary developer tools to build, test, and debug Android applications on Windows, Mac or Linux.**
 
+- **[Android Build Tools](https://developer.android.com/studio/releases/build-tools) for debuging, building, runing and testing an Android application**
 
 ## Support & Contact
 
@@ -68,3 +77,7 @@ Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 - Email Address: collo.kariss@gmail.com
 
 - github-username: zecollokaris
+
+## LICENSE
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details
