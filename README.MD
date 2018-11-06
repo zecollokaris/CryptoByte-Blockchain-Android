@@ -68,7 +68,7 @@ Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 
 - **[Android SDK](https://developer.android.com/studio/) for providing all the necessary developer tools to build, test, and debug Android applications on Windows, Mac or Linux.**
 
-- **[Android Build Tools](https://developer.android.com/studio/releases/build-tools) for debuging, building, runing and testing an Android application**
+- **[Android Build Tools](https://developer.android.com/studio/releases/build-tools) for debugging, building, running and testing an Android applications.**
 
 ## Support & Contact
 
@@ -80,4 +80,4 @@ Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 
 ## LICENSE
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
