@@ -39,7 +39,7 @@ sdk install gradle
 
 2. You need to get into the Coin-Base-BlockChain-Android Repository.
 
-Link:-> ``````
+Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 
 3. From there you can access the Encrypter.
 
