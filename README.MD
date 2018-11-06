@@ -53,3 +53,6 @@ Link:-> ```https://github.com/zecollokaris/Encrypter-Java```
 gradle run
 ```
 
+
+### TECHNOLOGIES USED:
+
