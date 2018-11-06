@@ -62,19 +62,19 @@ Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 
 ### TECHNOLOGIES USED:
 
-**[Java](https://java.com/en/download/)**
+1. **[Java](https://java.com/en/download/)**
 
 - **source language.**
 
-**[Gradle](https://gradle.org/)**
+2. **[Gradle](https://gradle.org/)**
 
 - **For dependency management and running tasks.**
 
-**[Android SDK](https://developer.android.com/studio/)**
+3. **[Android SDK](https://developer.android.com/studio/)**
 
 - **For providing all the necessary developer tools to build, test, and debug Android applications on Windows, Mac or Linux.**
 
-**[Android Build Tools](https://developer.android.com/studio/releases/build-tools)**
+4. **[Android Build Tools](https://developer.android.com/studio/releases/build-tools)**
 
 - **For debugging, building, running and testing an Android applications.**
 
