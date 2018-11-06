@@ -40,3 +40,9 @@ sdk install gradle
 2. You need to get into the Encrypter Repository.
 
 Link:-> ```https://github.com/zecollokaris/Encrypter-Java```
+
+3. From there you can access the Encrypter.
+
+4. **Clone** the project.
+
+5. **get into project folder** (cd into project).
