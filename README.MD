@@ -41,17 +41,15 @@ sdk install gradle
 
 Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 
-3. From there you can access the Encrypter.
+3. From there you can access CryptoByte.
 
 4. **Clone** the project.
 
 5. **get into project folder** (cd into project).
 
-6. If you have all the **Pre-requisites** you can run the application.
+6. If you have all the **Pre-requisites**
 
-```
-gradle run
-```
+7. Open your Android Studio Editor and run the Application.
 
 
 ### TECHNOLOGIES USED:
@@ -59,6 +57,8 @@ gradle run
 - **[Java](https://java.com/en/download/) - source language.**
 
 - **[Gradle](https://gradle.org/) for dependency management and running tasks.**
+
+- **[Android](https://developer.android.com/studio/install?pkg=tools) for dependency management and running tasks.**
 
 
 ## Support & Contact
