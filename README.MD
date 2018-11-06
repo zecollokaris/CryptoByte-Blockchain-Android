@@ -64,3 +64,4 @@ gradle run
 
 - Mobile number: (+254) 798731203
 
+- Email Address: collo.kariss@gmail.com
