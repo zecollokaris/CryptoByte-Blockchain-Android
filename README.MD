@@ -37,9 +37,9 @@ sdk install gradle
 
 1. You will need Internet connection.
 
-2. You need to get into the Encrypter Repository.
+2. You need to get into the Coin-Base-BlockChain-Android Repository.
 
-Link:-> ```https://github.com/zecollokaris/Encrypter-Java```
+Link:-> ``````
 
 3. From there you can access the Encrypter.
 
@@ -59,6 +59,7 @@ gradle run
 - **[Java](https://java.com/en/download/) - source language.**
 
 - **[Gradle](https://gradle.org/) for dependency management and running tasks.**
+
 
 ## Support & Contact
 
