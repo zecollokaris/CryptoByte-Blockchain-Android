@@ -9,14 +9,13 @@
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
         android:layout_height="452dp"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/cryptobg4ldark" />
+        android:layout_alignParentTop="true"/>
 
     <LinearLayout
         android:id="@+id/dotsLayout"
         android:layout_width="48dp"
         android:layout_height="42dp"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/getStartedBtn"
         android:layout_centerHorizontal="true"
         android:orientation="horizontal" />
 
@@ -42,7 +41,7 @@
         android:textColor="@color/colorWhite" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/getStartedBtn"
         android:layout_width="312dp"
         android:layout_height="37dp"
         android:layout_alignParentBottom="true"

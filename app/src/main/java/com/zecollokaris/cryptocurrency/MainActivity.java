@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView mSplashText;
 
+    //Get Started Button!!
+    private Button mGetStartedBtn;
+
 
 //##################################################################################################
 
@@ -44,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         //BUTTONS
         mNextBtn = (Button) findViewById(R.id.nxtBtn);
         mBackBtn = (Button) findViewById(R.id.prevBtn);
+        mGetStartedBtn = (Button) findViewById(R.id.getStartedBtn);
 
         //FONTS FOR SPLASH PAGE!
 //        mSplashText = (TextView) findViewById(R.id.splashText);
