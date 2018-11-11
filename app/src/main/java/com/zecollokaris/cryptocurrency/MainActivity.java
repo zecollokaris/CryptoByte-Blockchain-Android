@@ -1,5 +1,6 @@
 package com.zecollokaris.cryptocurrency;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -47,7 +48,18 @@ public class MainActivity extends AppCompatActivity {
         //BUTTONS
         mNextBtn = (Button) findViewById(R.id.nxtBtn);
         mBackBtn = (Button) findViewById(R.id.prevBtn);
+
+        //GET STARTED BUTTON!!
         mGetStartedBtn = (Button) findViewById(R.id.getStartedBtn);
+
+        mGetStartedBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity2();
+            }
+        });
+
+
 
         //FONTS FOR SPLASH PAGE!
 //        mSplashText = (TextView) findViewById(R.id.splashText);
@@ -80,6 +92,11 @@ public class MainActivity extends AppCompatActivity {
             
         });
 
+    }
+
+    public void openActivity2(){
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
     }
 
 //  ADDS DOT SLIDER FOR CODE!
