@@ -57,31 +57,8 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
 
 
 
-        //LOGIN & REGISTER TABS
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Register"));
-        tabLayout.addTab(tabLayout.newTab().setText("Login"));
-        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
-        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
-        final LoginAdapter adapter = new LoginAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
-        viewPager.setAdapter(adapter);
-        viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
-        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                viewPager.setCurrentItem(tab.getPosition());
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-            }
-        });
 
 
 
@@ -95,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
         });
 
 
-        
+
 
         //SLIDER ADAPTER
         sliderAdapter = new SliderAdapter(this);
@@ -125,10 +102,47 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
 
     }
 
+
+
     public void openActivity2(){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
+
+
+        //LOGIN & REGISTER TABS
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
+        tabLayout.addTab(tabLayout.newTab().setText("Tab 1"));
+        tabLayout.addTab(tabLayout.newTab().setText("Tab 2"));
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+
+        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+        final LoginAdapter adapter = new LoginAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
+        viewPager.setAdapter(adapter);
+        viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+
+        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+           @Override
+           public void onTabSelected(TabLayout.Tab tab) {
+               viewPager.setCurrentItem(tab.getPosition());
+           }
+
+           @Override
+           public void onTabUnselected(TabLayout.Tab tab) {
+           }
+
+           @Override
+           public void onTabReselected(TabLayout.Tab tab) {
+           }
+
+        });
+
+
     }
+
+        @Override
+        public void onFragmentInteraction(Uri uri) {
+
+        }
 
 //  ADDS DOT SLIDER FOR CODE!
     public void addDotsIndicator(int position){
@@ -178,7 +192,7 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
                 mBackBtn.setEnabled(true);
                 mBackBtn.setVisibility(View.VISIBLE);
 
-                mNextBtn.setText("Finish");
+                mNextBtn.setText("");
                 mBackBtn.setText("Back");
 
             } else {
@@ -199,8 +213,5 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
         }
     };
 
-    @Override
-    public void onFragmentInteraction(Uri uri) {
 
-    }
 }

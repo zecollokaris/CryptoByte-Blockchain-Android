@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tablayout"
             android:minHeight="?attr/actionBarSize"
-            android:backgroud="@color/colorTransparentPink"
+            android:background="@color/colorTransparentPink"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
         </android.support.design.v7.widget.TabLayout>
 
