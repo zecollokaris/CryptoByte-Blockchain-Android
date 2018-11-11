@@ -2,6 +2,9 @@ package com.zecollokaris.cryptocurrency;
 
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.net.Uri;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,7 +14,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener, Tab2.OnFragmentInteractionListener {
 
 
     private ViewPager mSlideViewPager;
@@ -52,6 +55,38 @@ public class MainActivity extends AppCompatActivity {
         //GET STARTED BUTTON!!
         mGetStartedBtn = (Button) findViewById(R.id.getStartedBtn);
 
+
+
+        //LOGIN & REGISTER TABS
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
+        tabLayout.addTab(tabLayout.newTab().setText("Register"));
+        tabLayout.addTab(tabLayout.newTab().setText("Login"));
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+
+        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+        final LoginAdapter adapter = new LoginAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
+        viewPager.setAdapter(adapter);
+        viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+
+        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+            }
+        });
+
+
+
+
+        //GetStarted Listener To Switch To Login & Register Activity
         mGetStartedBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,11 +95,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
-        //FONTS FOR SPLASH PAGE!
-//        mSplashText = (TextView) findViewById(R.id.splashText);
-//        Typeface googleFont = Typeface.createFromAsset(getAssets(), "fonts/limelight.ttf");
-//        mSplashText.setTypeface(googleFont);
+        
 
         //SLIDER ADAPTER
         sliderAdapter = new SliderAdapter(this);
@@ -168,4 +199,8 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
+    }
 }
