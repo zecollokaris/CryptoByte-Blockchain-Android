@@ -63,8 +63,8 @@
             android:id="@+id/coin_sign"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="252dp"
-            android:layout_marginStart="252dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginStart="250dp"
             android:text="$"
             app:layout_constaintTop_toTopOf="@id/coin_icon"
             app:layout_constraintStart_toEndOf="@id/coin_symbol"
@@ -77,8 +77,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="USD"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="316dp"
             tools:layout_editor_absoluteY="16dp" />
+
+        <!--CryptoCurrency 1hr Watch!-->
+        <TextView
+            android:id="@+id/oneHourText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="1hr"
+            app:layout_constraintStart_toEndOf="@id/coin_icon"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon"
+            tools:ignore="MissingConstraints" />
+
+
+        <!--CryptoCurrency 1hr Watch!-->
+        <TextView
+            android:id="@+id/oneHourText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="1hr"
+            app:layout_constraintStart_toEndOf="@id/coin_icon"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon"
+            tools:ignore="MissingConstraints" />
+
 
     </android.support.constraint.ConstraintLayout>
 
