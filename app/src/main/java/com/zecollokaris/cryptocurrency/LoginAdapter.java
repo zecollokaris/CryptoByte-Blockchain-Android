@@ -3,7 +3,6 @@ package com.zecollokaris.cryptocurrency;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.PagerAdapter;
 
 public class LoginAdapter extends FragmentStatePagerAdapter {
 

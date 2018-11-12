@@ -14,15 +14,15 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener, Tab2.OnFragmentInteractionListener {
+    public class MainActivity extends AppCompatActivity {
 
 
-    private ViewPager mSlideViewPager;
-    private LinearLayout mDotLayout;
-    //TEXT VIEW TO HOLD DOT SLIDERS!
-    private TextView[] mDots;
+        private ViewPager mSlideViewPager;
+        private LinearLayout mDotLayout;
+        //TEXT VIEW TO HOLD DOT SLIDERS!
+        private TextView[] mDots;
 
-    private SliderAdapter sliderAdapter;
+        private SliderAdapter sliderAdapter;
 
     //Buttons
     private Button mNextBtn;
@@ -109,40 +109,11 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
         startActivity(intent);
 
 
-        //LOGIN & REGISTER TABS
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 1"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 2"));
-        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
-        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
-        final LoginAdapter adapter = new LoginAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
-        viewPager.setAdapter(adapter);
-        viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-
-        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-           @Override
-           public void onTabSelected(TabLayout.Tab tab) {
-               viewPager.setCurrentItem(tab.getPosition());
-           }
-
-           @Override
-           public void onTabUnselected(TabLayout.Tab tab) {
-           }
-
-           @Override
-           public void onTabReselected(TabLayout.Tab tab) {
-           }
-
-        });
 
 
     }
 
-        @Override
-        public void onFragmentInteraction(Uri uri) {
-
-        }
 
 //  ADDS DOT SLIDER FOR CODE!
     public void addDotsIndicator(int position){
