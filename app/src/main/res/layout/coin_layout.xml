@@ -105,7 +105,18 @@
             app:layout_constraintStart_toEndOf="@id/oneHourText"
             app:layout_constraintTop_toBottomOf="@id/coin_icon"/>
 
-        
+
+        <!--CryptoCurrency 24hr Watch!-->
+        <TextView
+            android:id="@+id/twentyFourHourText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginStart="38dp"
+            android:text="24hr"
+            app:layout_constraintStart_toEndOf="@id/percentChange1hrText"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon"
+            tools:ignore="MissingConstraints" />
 
 
     </android.support.constraint.ConstraintLayout>
