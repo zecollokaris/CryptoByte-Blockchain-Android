@@ -96,7 +96,7 @@
 
         <!--CryptoCurrency Percentage 1hr% Change -->
         <TextView
-            android:id="@+id/percentChange1hrText"
+            android:id="@+id/percentChange1hText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -114,9 +114,21 @@
             android:layout_marginLeft="38dp"
             android:layout_marginStart="38dp"
             android:text="24hr"
-            app:layout_constraintStart_toEndOf="@id/percentChange1hrText"
+            app:layout_constraintStart_toEndOf="@id/percentChange1hText"
             app:layout_constraintTop_toBottomOf="@id/coin_icon"
             tools:ignore="MissingConstraints" />
+
+        
+        <!--CryptoCurrency Percentage 24hr% Change -->
+        <TextView
+            android:id="@+id/percentChange24hText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/colorCyanBlue"
+            app:layout_constraintStart_toEndOf="@id/twentyFourHourText"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon"/>
 
 
     </android.support.constraint.ConstraintLayout>
