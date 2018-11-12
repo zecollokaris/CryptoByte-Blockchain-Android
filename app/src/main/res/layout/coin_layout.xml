@@ -141,6 +141,18 @@
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="19dp" />
 
+
+        <!--CryptoCurrency Percentage 7d Change -->
+        <TextView
+            android:id="@+id/percentChange7dText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/colorCyanBlue"
+            app:layout_constraintStart_toEndOf="@id/sevenDayText"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon" />
+
     </android.support.constraint.ConstraintLayout>
 
 
