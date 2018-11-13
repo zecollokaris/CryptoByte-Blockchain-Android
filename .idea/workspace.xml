@@ -104,14 +104,14 @@
       <file leaf-file-name="CoinAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zecollokaris/cryptocurrency/Adapter/CoinAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="55" />
+            <state relative-caret-position="518">
+              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1017#1245#0" expanded="true" />
-                <element signature="e#1244#1245#0" expanded="true" />
-                <element signature="e#1556#1557#0" expanded="true" />
-                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#1023#1639#0" expanded="true" />
+                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
+                <element signature="e#1981#1982#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2231,8 +2231,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1141" />
-    <option name="y" value="384" />
+    <option name="x" value="800" />
+    <option name="y" value="262" />
     <option name="width" value="875" />
     <option name="height" value="868" />
   </component>
@@ -2513,7 +2513,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1141" y="384" width="875" height="868" extended-state="0" />
+    <frame x="800" y="262" width="875" height="868" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2762,14 +2762,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zecollokaris/cryptocurrency/Adapter/CoinAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="55" />
+        <state relative-caret-position="518">
+          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1017#1245#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1023#1639#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
           </folding>
         </state>
       </provider>

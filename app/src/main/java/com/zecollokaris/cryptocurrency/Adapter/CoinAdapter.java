@@ -26,14 +26,24 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         this.activity = activity;
         this.items = items;
 
-        LinearLayoutManager linearLayoutManager = (LinearLayoutManager)recyclerView.getLayoutManager();
+        final LinearLayoutManager linearLayoutManager = (LinearLayoutManager)recyclerView.getLayoutManager();
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);
+                totalItemCount = linearLayoutManager.getItemCount();
+                lastVisibleItem = linearLayoutManager.findLastVisibleItemPosition();
+                if (!isLoading && totalItemCount <= (lastVisibleItem+visibleThreshold)){
+                    if(iLoadMore != null)
+                        iLoadMore.onLoadMore();
+                    isLoading =true;
+                }
             }
         });
     }
+
+
+    
 
     @NonNull
     @Override
