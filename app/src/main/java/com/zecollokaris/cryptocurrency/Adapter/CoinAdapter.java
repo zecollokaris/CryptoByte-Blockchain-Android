@@ -1,4 +1,6 @@
 package com.zecollokaris.cryptocurrency.Adapter;
 
-public class CoinAdapter {
+import android.support.v7.widget.RecyclerView;
+
+public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 }

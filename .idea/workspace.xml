@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3317874-d367-4322-8321-0a539b1ddab1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zecollokaris/cryptocurrency/Adapter/CoinViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/zecollokaris/cryptocurrency/Adapter/CoinViewHolder.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zecollokaris/cryptocurrency/Adapter/CoinAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/zecollokaris/cryptocurrency/Adapter/CoinAdapter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -104,8 +104,8 @@
       <file leaf-file-name="CoinAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zecollokaris/cryptocurrency/Adapter/CoinAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="72">
+              <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -2756,8 +2756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zecollokaris/cryptocurrency/Adapter/CoinAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="72">
+          <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
           <folding />
         </state>
       </provider>
