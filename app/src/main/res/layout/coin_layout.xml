@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--CryptoCurrency Image-->
+        <ImageView
+            android:id="@+id/coin_icon"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <!--CryptoCurrency Initials -->
+        <TextView
+            android:id="@+id/coin_symbol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="BTC"
+            android:textStyle="bold"
+            app:layout_constaintTop_toTopOf="@id/coin_icon"
+            app:layout_constraintStart_toEndOf="@id/coin_icon"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <!--Divider-->
+        <TextView
+            android:id="@+id/coin_divider"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="|"
+            app:layout_constaintTop_toTopOf="@id/coin_icon"
+            app:layout_constraintStart_toEndOf="@id/coin_symbol"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <!--CryptoCurrency Name-->
+        <TextView
+            android:id="@+id/coin_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Bitcoin"
+            app:layout_constaintTop_toTopOf="@id/coin_icon"
+            app:layout_constraintStart_toEndOf="@id/coin_symbol"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <!--CryptoCurrency Sign-->
+        <TextView
+            android:id="@+id/coin_sign"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginStart="250dp"
+            android:text="$"
+            app:layout_constaintTop_toTopOf="@id/coin_icon"
+            app:layout_constraintStart_toEndOf="@id/coin_symbol"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <!--CryptoCurrency Price-->
+        <TextView
+            android:id="@+id/priceUsdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="316dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <!--CryptoCurrency 1hr Watch!-->
+        <TextView
+            android:id="@+id/oneHourText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="1hr"
+            app:layout_constraintStart_toEndOf="@id/coin_icon"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon"
+            tools:ignore="MissingConstraints" />
+
+
+        <!--CryptoCurrency Percentage 1hr% Change -->
+        <TextView
+            android:id="@+id/percentChange1hText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/colorCyanBlue"
+            app:layout_constraintStart_toEndOf="@id/oneHourText"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon" />
+
+
+        <!--CryptoCurrency 24hr Watch!-->
+        <TextView
+            android:id="@+id/twentyFourHourText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginStart="38dp"
+            android:text="24hr"
+            app:layout_constraintStart_toEndOf="@id/percentChange1hText"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon"
+            tools:ignore="MissingConstraints" />
+
+
+        <!--CryptoCurrency Percentage 24hr% Change -->
+        <TextView
+            android:id="@+id/percentChange24hText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/colorCyanBlue"
+            app:layout_constraintStart_toEndOf="@id/twentyFourHourText"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon" />
+
+
+        <!--CryptoCurrency 7days Watch!-->
+        <TextView
+            android:id="@+id/sevenDayText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="7d"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="19dp" />
+
+
+        <!--CryptoCurrency Percentage 7d Change -->
+        <TextView
+            android:id="@+id/percentChange7dText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/colorCyanBlue"
+            app:layout_constraintStart_toEndOf="@id/sevenDayText"
+            app:layout_constraintTop_toBottomOf="@id/coin_icon" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.v7.widget.CardView>
