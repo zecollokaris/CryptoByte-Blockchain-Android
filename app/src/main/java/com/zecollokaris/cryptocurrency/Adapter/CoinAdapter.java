@@ -9,11 +9,11 @@ import android.view.ActionMode;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import com.zecollokaris.cryptocurrency.R;
 import com.squareup.picasso.Picasso;
 import com.zecollokaris.cryptocurrency.Interface.ILoadMore;
 import com.zecollokaris.cryptocurrency.Model.CoinModel;
-import com.zecollokaris.cryptocurrency.R;
+
 
 import java.util.List;
 
@@ -80,11 +80,23 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
         holderItem.one_hour_change.setTextColor(item.getPercentage_change_1h().contains("-")?
                 Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
+        holderItem.twenty_hours_change.setTextColor(item.getPercentage_change_1h().contains("-")?
+                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
+        holderItem.seven_days_change.setTextColor(item.getPercentage_change_1h().contains("-")?
+                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return items.size();
+    }
+
+    public void setLoaded() {isLoading = true;}
+
+    public void updateData(List<CoinModel> coinModels){
+
+        this.items = coinModels;
+        notifyDataSetChanged();
     }
 }
