@@ -70,6 +70,8 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         holderItem.twenty_hours_change.setText(item.getPercentage_change_24h()+"%");
         holderItem.seven_days_change.setText(item.getPercentage_change_7d()+"%");
 
+        //Load Images (Picasso)
+
     }
 
     @Override
