@@ -8,13 +8,30 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-    public class MainActivity extends AppCompatActivity {
+import com.zecollokaris.cryptocurrency.Adapter.CoinAdapter;
+import com.zecollokaris.cryptocurrency.Model.CoinModel;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+
+public class MainActivity extends AppCompatActivity {
+
+        List<CoinModel> items = new ArrayList<>();
+        CoinAdapter adapter;
+        RecyclerView recyclerView;
+
+        OkHttpClient client;
+        Request request;
 
 
         private ViewPager mSlideViewPager;
