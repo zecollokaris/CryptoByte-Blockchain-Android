@@ -5,10 +5,13 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.ActionMode;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import com.zecollokaris.cryptocurrency.Interface.ILoadMore;
 import com.zecollokaris.cryptocurrency.Model.CoinModel;
+import com.zecollokaris.cryptocurrency.R;
 
 import java.util.List;
 
@@ -43,17 +46,24 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     }
 
 
-    
+    public void setiLoadMore(ILoadMore iLoadMore) {
+        this.iLoadMore = iLoadMore;
+    }
 
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        return null;
+        View view = LayoutInflater.from(activity)
+                .inflate(R.layout.coin_layout,viewGroup, false);
+        return new CoinViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+        CoinModel item = items.get(position);
+        CoinViewHolder holderItem = (CoinViewHolder)holder;
 
+        holderItem.coin_name.setText(item.getName());
     }
 
     @Override
