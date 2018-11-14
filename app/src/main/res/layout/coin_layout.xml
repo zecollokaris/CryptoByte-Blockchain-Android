@@ -60,8 +60,8 @@
             android:id="@+id/coin_sign"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="250dp"
-            android:layout_marginStart="250dp"
+            android:layout_marginLeft="136dp"
+            android:layout_marginStart="136dp"
             android:text="$"
             app:layout_constraintStart_toEndOf="@id/coin_symbol"
             tools:ignore="MissingConstraints"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:text="USD"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="316dp"
+            tools:layout_editor_absoluteX="261dp"
             tools:layout_editor_absoluteY="16dp" />
 
         <!--CryptoCurrency 1hr Watch!-->
