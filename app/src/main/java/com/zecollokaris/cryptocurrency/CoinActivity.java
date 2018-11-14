@@ -115,7 +115,7 @@ public class CoinActivity extends AppCompatActivity {
                 });
     }
 
-    private void loadFirst10Coin(int i) {
+    private void loadFirst10Coin(int index) {
         client = new OkHttpClient();
         request = new Request.Builder().url(String.format("https://api.coinmarketcap.com/v1/ticker/?start=%d&limit=10",index))
                 .build();
