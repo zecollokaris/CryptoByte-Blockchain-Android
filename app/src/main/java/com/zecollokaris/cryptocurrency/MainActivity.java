@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
@@ -26,12 +27,8 @@ import okhttp3.Request;
 
 public class MainActivity extends AppCompatActivity {
 
-        List<CoinModel> items = new ArrayList<>();
-        CoinAdapter adapter;
-        RecyclerView recyclerView;
 
-        OkHttpClient client;
-        Request request;
+
 
 
         private ViewPager mSlideViewPager;
@@ -124,9 +121,6 @@ public class MainActivity extends AppCompatActivity {
     public void openActivity2(){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-
-
-
 
 
     }
