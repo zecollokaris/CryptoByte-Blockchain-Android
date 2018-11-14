@@ -16,15 +16,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.zecollokaris.cryptocurrency.Adapter.CoinAdapter;
-import com.zecollokaris.cryptocurrency.Model.CoinModel;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-
 public class MainActivity extends AppCompatActivity {
 
 
