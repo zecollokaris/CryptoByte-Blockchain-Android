@@ -78,6 +78,8 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 .append(item.getSymbol().toLowerCase()).append(".png").toString())
                 .into(holderItem.coin_icon);
 //▼▾▲▴
+//        added null piont exceptions however seemed to be a leak at some point!
+
 //        holderItem.one_hour_change.setTextColor(item.getPercent_change_1h().contains("-")?
 //                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
 //        holderItem.twenty_hours_change.setTextColor(item.getPercent_change_1h().contains("-")?
