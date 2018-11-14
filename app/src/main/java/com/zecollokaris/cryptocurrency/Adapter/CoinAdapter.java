@@ -92,7 +92,7 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         return items.size();
     }
 
-    public void setLoaded() {isLoading = true;}
+    public void setLoaded() {isLoading = false;}
 
     public void updateData(List<CoinModel> coinModels){
 
