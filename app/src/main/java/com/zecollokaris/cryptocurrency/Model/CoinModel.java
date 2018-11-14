@@ -75,3 +75,4 @@ public class CoinModel {
         this.percent_change_7d = percent_change_7d;
     }
 }
+
