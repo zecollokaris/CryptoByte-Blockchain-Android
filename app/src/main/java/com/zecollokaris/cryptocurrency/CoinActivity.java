@@ -127,7 +127,7 @@ public class CoinActivity extends AppCompatActivity {
                     public void onFailure(Call call, IOException e) {
                         Toast.makeText(CoinActivity.this,e.getMessage(),Toast.LENGTH_SHORT).show();
                     }
-
+////////////////////////////////////////////////////
                     @Override
                     public void onResponse(Call call, Response response) throws IOException {
 

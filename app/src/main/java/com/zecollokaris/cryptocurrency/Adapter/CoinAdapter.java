@@ -78,12 +78,12 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 .append(item.getSymbol().toLowerCase()).append(".png").toString())
                 .into(holderItem.coin_icon);
 
-//        holderItem.one_hour_change.setTextColor(item.getPercentage_change_1h().contains("-")?
-//                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
-//        holderItem.twenty_hours_change.setTextColor(item.getPercentage_change_1h().contains("-")?
-//                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
-//        holderItem.seven_days_change.setTextColor(item.getPercentage_change_1h().contains("-")?
-//                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
+        holderItem.one_hour_change.setTextColor(item.getPercentage_change_1h().contains("-")?
+                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
+        holderItem.twenty_hours_change.setTextColor(item.getPercentage_change_1h().contains("-")?
+                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
+        holderItem.seven_days_change.setTextColor(item.getPercentage_change_1h().contains("-")?
+                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
 
     }
 
