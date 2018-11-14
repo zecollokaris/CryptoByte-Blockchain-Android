@@ -100,9 +100,17 @@ public class CoinActivity extends AppCompatActivity {
 
                         String body = response.body().toString();
                         Gson gson = new Gson();
-                        List<CoinModel> newitems = gson.fromJson(body,new TypeToken<List<CoinModel>>(){}.getType());
+                        final List<CoinModel> newitems = gson.fromJson(body,new TypeToken<List<CoinModel>>(){}.getType());
 
-                        runOnUiThread();
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                items.addAll(newitems);
+                                adapter.setLoaded();
+                                adapter.updateData(items);
+                                swipeRefreshLayout.setRefreshing(false);
+                            }
+                        });
                     }
                 });
     }
