@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
     //Get Started Button!!
     private Button mGetStartedBtn;
 
-    //Register button!!
-    private Button mRegister;
 
 
 //##################################################################################################
@@ -69,19 +67,6 @@ public class MainActivity extends AppCompatActivity {
                 openActivity2();
             }
         });
-
-        //RegisterButton!!
-        mRegister = (Button) findViewById(R.id.register);
-        //Register Listener
-        mRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openCoinActivity();
-            }
-        });
-
-
-
 
 
 
@@ -122,11 +107,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    //OPEN INTENT COIN ACTIVITY!
-    public void openCoinActivity(){
-        Intent intent = new Intent(this, CoinActivity.class);
-        startActivity(intent);
-    }
+
 
 //##################################################################################################
 
