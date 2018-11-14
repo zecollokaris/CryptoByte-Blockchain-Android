@@ -17,6 +17,7 @@ public class CoinViewHolder extends RecyclerView.ViewHolder{
         super(itemView);
 
         coin_icon = (ImageView)itemView.findViewById(R.id.coin_icon);
+        coin_symbol = (TextView)itemView.findViewById(R.id.coin_symbol);
         coin_name = (TextView)itemView.findViewById(R.id.coin_name);
         coin_price = (TextView)itemView.findViewById(R.id.priceUsdText);
         one_hour_change = (TextView)itemView.findViewById(R.id.oneHourText);

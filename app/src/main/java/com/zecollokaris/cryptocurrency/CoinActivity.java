@@ -98,7 +98,7 @@ public class CoinActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call call, Response response) throws IOException {
 
-                        String body = response.body().toString();
+                        String body = response.body().string();
                         Gson gson = new Gson();
                         final List<CoinModel> newitems = gson.fromJson(body,new TypeToken<List<CoinModel>>(){}.getType());
 
@@ -131,14 +131,14 @@ public class CoinActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call call, Response response) throws IOException {
 
-                        String body = response.body().toString();
+                        String body = response.body().string();
                         Gson gson = new Gson();
-                        final List<CoinModel> newitems = gson.fromJson(body,new TypeToken<List<CoinModel>>(){}.getType());
+                        final List<CoinModel> newItems = gson.fromJson(body,new TypeToken<List<CoinModel>>(){}.getType());
 
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                adapter.updateData(items);
+                                adapter.updateData(newItems);
 
                             }
                         });
