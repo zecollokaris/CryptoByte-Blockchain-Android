@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
     //Get Started Button!!
     private Button mGetStartedBtn;
 
+    //Register button!!
+    private Button mRegister;
+
 
 //##################################################################################################
 
@@ -59,15 +62,6 @@ public class MainActivity extends AppCompatActivity {
 
         //GET STARTED BUTTON!!
         mGetStartedBtn = (Button) findViewById(R.id.getStartedBtn);
-
-
-
-
-
-
-
-
-
         //GetStarted Listener To Switch To Login & Register Activity
         mGetStartedBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +69,18 @@ public class MainActivity extends AppCompatActivity {
                 openActivity2();
             }
         });
+
+        //RegisterButton!!
+        mRegister = (Button) findViewById(R.id.register);
+        //Register Listener
+        mRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCoinActivity();
+            }
+        });
+
+
 
 
 
@@ -107,15 +113,22 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-
+//##################################################################################################
+//\\ INTENT OPENERS //\\
+//##################################################################################################
+    //GET STARTED INTENT OPENER TO LOGIN!
     public void openActivity2(){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-
-
     }
 
+    //OPEN INTENT COIN ACTIVITY!
+    public void openCoinActivity(){
+        Intent intent = new Intent(this, CoinActivity.class);
+        startActivity(intent);
+    }
+
+//##################################################################################################
 
 //  ADDS DOT SLIDER FOR CODE!
     public void addDotsIndicator(int position){
