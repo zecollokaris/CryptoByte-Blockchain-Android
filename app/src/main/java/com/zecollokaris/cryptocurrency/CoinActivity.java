@@ -116,6 +116,37 @@ public class CoinActivity extends AppCompatActivity {
     }
 
     private void loadFirst10Coin(int i) {
+        client = new OkHttpClient();
+        request = new Request.Builder().url(String.format("https://api.coinmarketcap.com/v1/ticker/?start=%d&limit=10",index))
+                .build();
+
+        swipeRefreshLayout.setRefreshing(true);
+        client.newCall(request)
+                .enqueue(new Callback() {
+                    @Override
+                    public void onFailure(Call call, IOException e) {
+                        Toast.makeText(CoinActivity.this,e.getMessage(),Toast.LENGTH_SHORT).show();
+                    }
+
+                    @Override
+                    public void onResponse(Call call, Response response) throws IOException {
+
+                        String body = response.body().toString();
+                        Gson gson = new Gson();
+                        final List<CoinModel> newitems = gson.fromJson(body,new TypeToken<List<CoinModel>>(){}.getType());
+
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                adapter.updateData(items);
+
+                            }
+                        });
+                    }
+                });
+
+        if (swipeRefreshLayout.isRefreshing())
+            swipeRefreshLayout.setRefreshing(false);
     }
 
 
