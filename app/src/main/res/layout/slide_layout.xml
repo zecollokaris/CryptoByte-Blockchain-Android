@@ -16,7 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp"
-        app:srcCompat="@drawable/cryptologo1" />
+        app:srcCompat="@drawable/cryptologoorigi" />
 
     <TextView
         android:id="@+id/slideheading"
