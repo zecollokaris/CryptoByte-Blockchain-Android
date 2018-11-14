@@ -1,12 +1,14 @@
 package com.zecollokaris.cryptocurrency;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -28,6 +30,9 @@ public class Tab2 extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    //Register button!!
+    private Button mRegisterBtn;
 
     public Tab2() {
         // Required empty public constructor
@@ -62,9 +67,25 @@ public class Tab2 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tab2, container, false);
+          View view=inflater.inflate(R.layout.fragment_tab2, container, false);
+          mRegisterBtn=(Button) view.findViewById(R.id.registerBtn);
+          mRegisterBtn.setOnClickListener(new View.OnClickListener() {
+              @Override
+              public void onClick(View v) {
+                  openCoinActivity();
+              }
+          });
+          return view;
     }
+
+    //\\ INTENT OPENERS //\\
+
+    //OPEN INTENT COIN ACTIVITY!
+    public void openCoinActivity(){
+        Intent intent = new Intent(getContext(), CoinActivity.class);
+        startActivity(intent);
+    }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

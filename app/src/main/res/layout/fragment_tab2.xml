@@ -12,4 +12,13 @@
         android:text="Register"
         android:textAlignment="center"/>
 
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="Register"/>
+
 </RelativeLayout>

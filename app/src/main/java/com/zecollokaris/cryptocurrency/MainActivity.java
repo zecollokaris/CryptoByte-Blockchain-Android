@@ -6,15 +6,20 @@ import android.net.Uri;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-    public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
+
+
+
 
 
         private ViewPager mSlideViewPager;
@@ -36,6 +41,7 @@ import android.widget.TextView;
     private Button mGetStartedBtn;
 
 
+
 //##################################################################################################
 
 
@@ -54,15 +60,6 @@ import android.widget.TextView;
 
         //GET STARTED BUTTON!!
         mGetStartedBtn = (Button) findViewById(R.id.getStartedBtn);
-
-
-
-
-
-
-
-
-
         //GetStarted Listener To Switch To Login & Register Activity
         mGetStartedBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,7 +67,6 @@ import android.widget.TextView;
                 openActivity2();
             }
         });
-
 
 
 
@@ -102,18 +98,18 @@ import android.widget.TextView;
 
     }
 
-
-
+//##################################################################################################
+//\\ INTENT OPENERS //\\
+//##################################################################################################
+    //GET STARTED INTENT OPENER TO LOGIN!
     public void openActivity2(){
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-
-
-
-
-
     }
 
+
+
+//##################################################################################################
 
 //  ADDS DOT SLIDER FOR CODE!
     public void addDotsIndicator(int position){

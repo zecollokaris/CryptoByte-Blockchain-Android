@@ -29,7 +29,6 @@
             android:layout_marginLeft="8dp"
             android:text="BTC"
             android:textStyle="bold"
-            app:layout_constaintTop_toTopOf="@id/coin_icon"
             app:layout_constraintStart_toEndOf="@id/coin_icon"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="16dp" />
@@ -41,7 +40,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dp"
             android:text="|"
-            app:layout_constaintTop_toTopOf="@id/coin_icon"
             app:layout_constraintStart_toEndOf="@id/coin_symbol"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="16dp" />
@@ -53,7 +51,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="18dp"
             android:text="Bitcoin"
-            app:layout_constaintTop_toTopOf="@id/coin_icon"
             app:layout_constraintStart_toEndOf="@id/coin_symbol"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="16dp" />
@@ -66,7 +63,6 @@
             android:layout_marginLeft="250dp"
             android:layout_marginStart="250dp"
             android:text="$"
-            app:layout_constaintTop_toTopOf="@id/coin_icon"
             app:layout_constraintStart_toEndOf="@id/coin_symbol"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="16dp" />
