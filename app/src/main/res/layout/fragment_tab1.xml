@@ -40,7 +40,7 @@
                 android:drawableLeft="@mipmap/user"
                 android:drawablePadding="10dp"
                 android:ems="10"
-                android:hint="Username"
+                android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:padding="1dp"
@@ -53,7 +53,7 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="30dp"
                 android:layout_marginTop="20dp"
                 android:background="@android:color/transparent"
                 android:drawableLeft="@mipmap/password"
