@@ -86,24 +86,25 @@
 
 
 
-            <Button
-                android:id="@+id/registerBtn"
-                android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:layout_marginTop="150dp"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:textColor="@color/colorTransparentWhite"
-                android:background="@color/colorCyanBlue"
-                android:textAlignment="center"
-                android:text="Register"
-                android:textAllCaps="false"
-                android:clickable="true" />
+
 
 
         </LinearLayout>
+
     </ScrollView>
 
-
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorTransparentWhite"
+        android:background="@color/colorCyanBlue"
+        android:textAlignment="center"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:clickable="true" />
 
 </RelativeLayout>
