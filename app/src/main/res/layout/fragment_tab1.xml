@@ -32,10 +32,10 @@
 
             <EditText
                 android:layout_width="401dp"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="20dp"
                 android:background="@android:color/transparent"
                 android:drawableLeft="@mipmap/user"
                 android:drawablePadding="10dp"
@@ -53,22 +53,32 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
                 android:background="@android:color/transparent"
                 android:drawableLeft="@mipmap/password"
                 android:drawablePadding="12dp"
-                android:ems="10"
+                android:ems="20"
                 android:hint=".........."
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:padding="1dp"
-                android:textColorHint="#fff" />
+                android:textColorHint="#fff"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="80dp"/>
+                android:layout_height="37dp"
+                android:layout_marginTop="150dp"
+                android:textAlignment="center"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorTransparentWhite"
+                android:textAllCaps="false"
+                android:clickable="true"
+                android:text="Log In"/>
 
 
         </LinearLayout>
