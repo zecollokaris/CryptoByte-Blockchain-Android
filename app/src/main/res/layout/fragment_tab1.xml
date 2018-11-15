@@ -44,7 +44,8 @@
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:padding="1dp"
-                android:textColorHint="#fff" />
+                android:textColorHint="#fff"
+                android:textColor="@color/colorWhite"/>
 
             <View
                 android:layout_width="match_parent"
@@ -62,7 +63,8 @@
                 android:hint=".........."
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:textColorHint="#fff"/>
+                android:textColorHint="#fff"
+                android:textColor="@color/colorTransparentWhite"/>
 
             <View
                 android:layout_width="match_parent"
