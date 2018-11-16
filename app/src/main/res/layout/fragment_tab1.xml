@@ -71,24 +71,24 @@
                 android:layout_height="1dp"
                 android:background="#f9d7db" />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginTop="180dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorTransparentWhite"
+                android:textAllCaps="false"
+                android:text="Log In"/>
 
 
 
         </LinearLayout>
     </ScrollView>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="38dp"
-        android:layout_marginBottom="23dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:textAlignment="center"
-        android:background="@color/colorAccent"
-        android:textColor="@color/colorTransparentWhite"
-        android:textAllCaps="false"
-        android:clickable="true"
-        android:text="Log In"/>
+
 
 
 </RelativeLayout>
