@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.ActionMode;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -68,8 +69,6 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         holderItem.coin_name.setText(item.getName());
         holderItem.coin_symbol.setText(item.getSymbol());
         holderItem.coin_price.setText(item.getPrice_usd());
-        holderItem.one_hour_change.setText(item.getPercent_change_1h()+"%");
-        holderItem.twenty_hours_change.setText(item.getPercent_change_24h()+"%");
         holderItem.seven_days_change.setText(item.getPercent_change_7d()+"%");
 
         //Load Images (Picasso)
@@ -78,16 +77,60 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 .append(item.getSymbol().toLowerCase()).append(".png").toString())
                 .into(holderItem.coin_icon);
 //▼▾▲▴
-//        added null piont exceptions however seemed to be a leak at some point!
+//        This section of code Change the color of text to Red incase of a drop and Green incase of a rise!
 
-//        holderItem.one_hour_change.setTextColor(item.getPercent_change_1h().contains("-")?
-//                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
-//        holderItem.twenty_hours_change.setTextColor(item.getPercent_change_1h().contains("-")?
-//                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
-//        holderItem.seven_days_change.setTextColor(item.getPercent_change_1h().contains("-")?
-//                Color.parseColor("#FF0000"):Color.parseColor("32CD32"));
+        try {
+            //Percent_change_1h
+            if(item.getPercent_change_1h().contains("-")){
+                String data=item.getPercent_change_1h().replace("-","▼");
+                holderItem.one_hour_change.setTextColor(Color.parseColor("#FF0000"));
+                holderItem.one_hour_change.setText(data);
+            }
+            else if(!item.getPercent_change_1h().contains("-")) {
+
+                String data = "▲";
+                data = data.concat(item.getPercent_change_1h());
+                holderItem.one_hour_change.setTextColor(Color.parseColor("#32CD32"));
+                holderItem.one_hour_change.setText(data);
+            }
+
+            //Percent_change_24h
+            if(item.getPercent_change_24h().contains("-")){
+                String data=item.getPercent_change_24h().replace("-","▼");
+                holderItem.twenty_hours_change.setTextColor(Color.parseColor("#FF0000"));
+                holderItem.twenty_hours_change.setText(data);
+            }
+            else if(!item.getPercent_change_24h().contains("-")){
+
+                String data="▲";
+                data=data.concat(item.getPercent_change_24h());
+                holderItem.twenty_hours_change.setTextColor(Color.parseColor("#32CD32"));
+                holderItem.twenty_hours_change.setText(data);
+
+            }
+
+            //Percent_change_7d
+            if(item.getPercent_change_7d().contains("-")){
+                String data=item.getPercent_change_7d().replace("-","▼");
+                holderItem.seven_days_change.setTextColor(Color.parseColor("#FF0000"));
+                holderItem.seven_days_change.setText(data);
+            }
+            else if(!item.getPercent_change_7d().contains("-")){
+
+                String data="▲";
+                data=data.concat(item.getPercent_change_7d());
+                holderItem.seven_days_change.setTextColor(Color.parseColor("#32CD32"));
+                holderItem.seven_days_change.setText(data);
+
+            }
+        }
+        catch(Exception e){
+            Log.d("Color_Error",e.getMessage());
+        }
 
     }
+
+
 
     @Override
     public int getItemCount() {
