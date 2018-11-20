@@ -7,16 +7,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link Tab1.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link Tab1#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class Tab1 extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -28,6 +21,7 @@ public class Tab1 extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
 
     public Tab1() {
         // Required empty public constructor
@@ -57,7 +51,9 @@ public class Tab1 extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
         }
+
     }
 
     @Override
