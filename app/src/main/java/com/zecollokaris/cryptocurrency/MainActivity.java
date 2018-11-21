@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         mSlideViewPager = (ViewPager) findViewById(R.id.slideViewPager);
         mDotLayout = (LinearLayout) findViewById(R.id.dotsLayout);
 
+        final TextView username = (TextView) findViewById(R.id.email);
+
         //BUTTONS
         mNextBtn = (Button) findViewById(R.id.nxtBtn);
         mBackBtn = (Button) findViewById(R.id.prevBtn);
@@ -90,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
             }
             
         });
+
+        final
 
     }
 
