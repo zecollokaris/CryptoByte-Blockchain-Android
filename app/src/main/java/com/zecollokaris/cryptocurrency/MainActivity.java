@@ -17,12 +17,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
-
-
-
-
-        private ViewPager mSlideViewPager;
+    private ViewPager mSlideViewPager;
         private LinearLayout mDotLayout;
         //TEXT VIEW TO HOLD DOT SLIDERS!
         private TextView[] mDots;
