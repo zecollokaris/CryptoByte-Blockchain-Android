@@ -7,7 +7,8 @@
     android:background="@drawable/cryptobg5dark"
     android:paddingRight="18dp"
     android:paddingLeft="18dp"
-    tools:context=".Tab1">
+    tools:context=".Tab1"
+    android:id="@+id/frag1_root">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -22,6 +23,7 @@
             android:orientation="vertical">
 
 
+
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="165dp"
@@ -30,48 +32,65 @@
                 android:layout_gravity="center"
                 android:src="@drawable/cryptologoorigi" />
 
-            <EditText
-                android:id="@+id/email"
-                android:layout_width="401dp"
-                android:layout_height="30dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="20dp"
-                android:background="@android:color/transparent"
-                android:drawableLeft="@mipmap/user"
-                android:drawablePadding="10dp"
-                android:ems="10"
-                android:hint="Email"
-                android:inputType="textEmailAddress"
-                android:maxLines="1"
-                android:padding="1dp"
-                android:textColorHint="#fff"
-                android:textColor="@color/colorWhite"/>
-
-            <View
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#f9d7db" />
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#FFF"
+                android:textColorHint="@color/colorTransparentWhite">
 
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_marginTop="20dp"
-                android:background="@android:color/transparent"
-                android:drawableLeft="@mipmap/password"
-                android:drawablePadding="12dp"
-                android:ems="20"
-                android:hint=".........."
-                android:inputType="textPassword"
-                android:maxLines="1"
-                android:textColorHint="#fff"
-                android:textColor="@color/colorTransparentWhite"/>
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="401dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/email"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="1dp"
+                    android:textColorHint="@color/colorTransparentWhite"
+                    android:textColor="@color/colorCyanBlue"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#f9d7db" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#f9d7db" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/key"
+                    android:drawablePadding="12dp"
+                    android:ems="20"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColorHint="@color/colorTransparentWhite"
+                    android:textColor="@color/colorCyanBlue"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#f9d7db" />
+
+
+
 
             <Button
                 android:id="@+id/loginbtn"
