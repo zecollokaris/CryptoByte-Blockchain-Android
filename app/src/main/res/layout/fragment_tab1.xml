@@ -38,7 +38,7 @@
                 android:layout_marginTop="20sp"
                 app:passwordToggleEnabled="true"
                 app:passwordToggleTint="#FFF"
-                android:textColorHint="#ffffff">
+                android:textColorHint="@color/colorTransparentWhite">
 
                 <EditText
                     android:id="@+id/email"
@@ -55,8 +55,8 @@
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:padding="1dp"
-                    android:textColorHint="#fff"
-                    android:textColor="@color/colorWhite"/>
+                    android:textColorHint="@color/colorTransparentWhite"
+                    android:textColor="@color/colorCyanBlue"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -67,13 +67,7 @@
 
 
 
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20sp"
-                app:passwordToggleEnabled="true"
-                app:passwordToggleTint="#FFF"
-                android:textColorHint="#ffffff">
+
 
                 <EditText
                     android:id="@+id/password"
@@ -87,15 +81,14 @@
                     android:hint="Password"
                     android:inputType="textPassword"
                     android:maxLines="1"
-                    android:textColorHint="#fff"
-                    android:textColor="@color/colorTransparentWhite"/>
+                    android:textColorHint="@color/colorTransparentWhite"
+                    android:textColor="@color/colorCyanBlue"/>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:background="#f9d7db" />
 
-            </android.support.design.widget.TextInputLayout>
 
 
 
