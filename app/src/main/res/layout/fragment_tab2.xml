@@ -116,6 +116,7 @@
                 android:layout_height="1dp"
                 android:background="#f9d7db" />
 
+
             <Button
                 android:id="@+id/registerBtn"
                 android:layout_width="match_parent"
