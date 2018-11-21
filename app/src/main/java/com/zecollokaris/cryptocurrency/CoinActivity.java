@@ -6,13 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.zecollokaris.cryptocurrency.Adapter.CoinAdapter;
 import com.zecollokaris.cryptocurrency.Interface.ILoadMore;
 import com.zecollokaris.cryptocurrency.Model.CoinModel;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

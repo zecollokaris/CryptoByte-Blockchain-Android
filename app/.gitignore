@@ -14,7 +14,6 @@ gen/
 out/
 
 # Gradle files
-.gradle
 build/
 
 # Local configuration file (sdk path, etc)
@@ -34,7 +33,6 @@ captures/
 
 # IntelliJ
 *.iml
-.idea
 .idea/
 .idea/workspace.xml
 .idea/tasks.xml
@@ -73,3 +71,5 @@ fastlane/readme.md
 /gradle.properties
 
 
+.idea
+.gradle

@@ -30,6 +30,7 @@
                 android:src="@drawable/cryptologoorigi" />
 
             <EditText
+                android:id="@+id/username"
                 android:layout_width="401dp"
                 android:layout_height="30dp"
                 android:layout_alignParentLeft="true"
@@ -39,10 +40,10 @@
                 android:drawableLeft="@mipmap/user"
                 android:drawablePadding="10dp"
                 android:ems="10"
-                android:hint="Full Name"
-                android:inputType="textEmailAddress"
+                android:hint="Username"
                 android:maxLines="1"
                 android:padding="1dp"
+                android:inputType="text"
                 android:textColorHint="#fff"
                 android:textColor="@color/colorWhite"/>
 
@@ -52,6 +53,7 @@
                 android:background="#f9d7db" />
 
             <EditText
+                android:id="@+id/email"
                 android:layout_width="401dp"
                 android:layout_height="30dp"
                 android:layout_alignParentLeft="true"
@@ -74,6 +76,7 @@
                 android:background="#f9d7db" />
 
             <EditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginTop="20dp"
@@ -81,7 +84,7 @@
                 android:drawableLeft="@mipmap/password"
                 android:drawablePadding="12dp"
                 android:ems="20"
-                android:hint="Pass Word"
+                android:hint="Password"
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:textColorHint="#fff"
