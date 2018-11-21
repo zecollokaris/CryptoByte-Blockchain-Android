@@ -37,13 +37,11 @@ public class Tab2 extends Fragment {
           email = view.findViewById(R.id.email);
           password = view.findViewById(R.id.password);
           auth = FirebaseAuth.getInstance();
-
-
           mRegisterBtn.setOnClickListener(new View.OnClickListener() {
               @Override
               public void onClick(View v) {
                   String txt_username = username.getText().toString();
-                  String txt_email = email.getText().toString();
+                  String txt_email = email.getText().toString().trim();
                   String txt_password = password.getText().toString();
 
                   if (TextUtils.isEmpty(txt_username) || TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_password)) {
@@ -67,9 +65,7 @@ public class Tab2 extends Fragment {
                     FirebaseUser firebaseUser = auth.getCurrentUser();
                     assert firebaseUser != null;
                     String userid = firebaseUser.getUid();
-
                     reference = FirebaseDatabase.getInstance().getReference("Users").child(userid);
-
                     HashMap<String, String> hashMap = new HashMap<>();
                     hashMap.put("id", userid);
                     hashMap.put("username", username);
