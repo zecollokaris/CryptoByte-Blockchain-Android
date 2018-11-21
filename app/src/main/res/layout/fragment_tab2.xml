@@ -60,7 +60,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="20dp"
                 android:background="@android:color/transparent"
-                android:drawableLeft="@mipmap/user"
+                android:drawableLeft="@drawable/email"
                 android:drawablePadding="10dp"
                 android:ems="10"
                 android:hint="Email"
