@@ -31,6 +31,7 @@
                 android:src="@drawable/cryptologoorigi" />
 
             <EditText
+                android:id="@+id/email"
                 android:layout_width="401dp"
                 android:layout_height="30dp"
                 android:layout_alignParentLeft="true"
@@ -53,6 +54,7 @@
                 android:background="#f9d7db" />
 
             <EditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginTop="20dp"
