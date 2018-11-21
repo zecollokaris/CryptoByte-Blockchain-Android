@@ -63,6 +63,7 @@ public class Tab2 extends Fragment {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
+
                     FirebaseUser firebaseUser = auth.getCurrentUser();
                     assert firebaseUser != null;
                     String userid = firebaseUser.getUid();
@@ -78,10 +79,7 @@ public class Tab2 extends Fragment {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()){
-                                Intent intent = new Intent(getContext(), CoinActivity.class);
-                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                                startActivity(intent);
-                                getActivity().finish();
+                                Toast.makeText(getContext(), "Your Account Has Been Created. You Can Now Login!",Toast.LENGTH_SHORT).show();
                             }
                         }
                     });
@@ -91,5 +89,4 @@ public class Tab2 extends Fragment {
             }
         });
     }
-
 }
