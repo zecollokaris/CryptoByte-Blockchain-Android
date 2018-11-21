@@ -15,23 +15,18 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.HashMap;
 
 public class Tab2 extends Fragment {
     Button mRegisterBtn;
     EditText username, email, password;
     FirebaseAuth auth;
     DatabaseReference reference;
-    private void register(String username, String email,String password){
-        auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(getActivity(),new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                 if(task.isSuccessful()){
-                     Log.d("SUCCESS","SUCCESS");
-                 }
-            }
-        });
-    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
           View view=inflater.inflate(R.layout.fragment_tab2, container, false);
@@ -40,13 +35,31 @@ public class Tab2 extends Fragment {
           email = view.findViewById(R.id.email);
           password = view.findViewById(R.id.password);
           auth = FirebaseAuth.getInstance();
+
+
           mRegisterBtn.setOnClickListener(new View.OnClickListener() {
               @Override
               public void onClick(View v) {
-                  register();
+
               }
           });
           return view;
+    }
+
+    private void register(String username, String email,String password){
+        auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(getActivity(),new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if(task.isSuccessful()){
+                    FirebaseUser firebaseUser = auth.getCurrentUser();
+                    String userid = firebaseUser.getUid();
+
+                    reference = FirebaseDatabase.getInstance().getReference("Users").child(userid);
+
+                    HashMap<String, String> hashMap = new HashMap<>()
+                }
+            }
+        });
     }
 
 }
