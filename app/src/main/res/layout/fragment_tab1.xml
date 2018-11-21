@@ -7,7 +7,8 @@
     android:background="@drawable/cryptobg5dark"
     android:paddingRight="18dp"
     android:paddingLeft="18dp"
-    tools:context=".Tab1">
+    tools:context=".Tab1"
+    android:id="@+id/frag1_root">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -38,7 +39,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="20dp"
                 android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/custom_icon_user"
+                android:drawableLeft="@drawable/user"
                 android:drawablePadding="10dp"
                 android:ems="10"
                 android:hint="Email"
