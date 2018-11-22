@@ -33,7 +33,7 @@ public class SliderAdapter extends PagerAdapter {
 
             "Welcome",
             "Trusted",
-            "Access prices"
+            "Prices"
     };
 
     //TEXT SLIDER
