@@ -57,7 +57,7 @@
             android:id="@+id/coin_sign"
             android:layout_width="20sp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="200sp"
+            android:layout_marginLeft="230sp"
             android:layout_marginTop="120sp"
             android:text="$"
             android:textAlignment="center"/>
@@ -67,13 +67,10 @@
             android:id="@+id/priceUsdText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="88dp"
+            android:layout_alignBottom="@+id/coin_sign"
+            android:layout_marginLeft="260sp"
             android:text="USD"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="312dp"
-            tools:layout_editor_absoluteY="133dp" />
+            android:textSize="30sp" />
 
         <!--CryptoCurrency 1hr Watch!-->
         <TextView
