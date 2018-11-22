@@ -8,72 +8,68 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="150sp">
 
         <!--CryptoCurrency Image-->
         <ImageView
             android:id="@+id/coin_icon"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="80dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="56sp"
+            android:layout_height="56sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30sp"
             app:srcCompat="@mipmap/ic_launcher" />
 
         <!--CryptoCurrency Initials -->
         <TextView
             android:id="@+id/coin_symbol"
-            android:layout_width="0dp"
+            android:layout_width="56sp"
             android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/coin_icon"
+            android:layout_below="@+id/coin_icon"
+            android:layout_marginTop="10sp"
             android:text="(BTC)"
-            android:textStyle="bold"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="27dp"
-            tools:layout_editor_absoluteY="132dp" />
+            android:textAlignment="center"
+            android:textStyle="bold" />
 
         <!--Divider-->
         <TextView
             android:id="@+id/coin_divider"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
-            android:text="|"
-            app:layout_constraintStart_toEndOf="@id/coin_symbol"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="35dp" />
+            android:layout_marginLeft="85sp"
+            android:layout_marginTop="40sp"
+            android:text="|" />
 
         <!--CryptoCurrency Name-->
         <TextView
             android:id="@+id/coin_name"
-            android:layout_width="0dp"
+            android:layout_width="90sp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
-            android:layout_marginStart="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="40sp"
             android:text="Bitcoin"
-            app:layout_constraintStart_toEndOf="@id/coin_symbol"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="35dp" />
+            android:textAlignment="center" />
 
         <!--CryptoCurrency Sign-->
         <TextView
             android:id="@+id/coin_sign"
-            android:layout_width="0dp"
+            android:layout_width="20sp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="180dp"
-            android:layout_marginStart="180dp"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="120sp"
             android:text="$"
-            app:layout_constraintStart_toEndOf="@id/coin_symbol"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="133dp" />
+            android:textAlignment="center"/>
 
         <!--CryptoCurrency Price-->
         <TextView
             android:id="@+id/priceUsdText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="88dp"
             android:text="USD"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="312dp"
@@ -87,7 +83,7 @@
             android:layout_marginLeft="240dp"
             android:layout_marginStart="240dp"
             android:text="1hr"
-            app:layout_constraintStart_toEndOf="@id/coin_icon"
+
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteY="35dp" />
 
@@ -107,12 +103,9 @@
             android:id="@+id/twentyFourHourText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignTop="@+id/coin_icon"
-            android:text="24hr"
-            app:layout_constraintTop_toBottomOf="@id/coin_icon"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="312dp" />
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="32dp"
+            android:text="24hr" />
 
 
         <!--CryptoCurrency Percentage 24hr% Change -->
@@ -121,9 +114,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:textColor="@color/colorCyanBlue"
-            app:layout_constraintTop_toBottomOf="@id/coin_icon"
-            tools:layout_editor_absoluteX="260dp" />
+            android:textColor="@color/colorCyanBlue" />
 
 
         <!--CryptoCurrency 7days Watch!-->
@@ -131,10 +122,7 @@
             android:id="@+id/sevenDayText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="7d"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="319dp"
-            tools:layout_editor_absoluteY="72dp" />
+            android:text="7d" />
 
 
         <!--CryptoCurrency Percentage 7d Change -->
@@ -142,17 +130,13 @@
             android:id="@+id/percentChange7dText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorCyanBlue"
-            tools:layout_editor_absoluteX="260dp"
-            tools:layout_editor_absoluteY="72dp" />
+            android:textColor="@color/colorCyanBlue" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#000"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="172dp" />
-
+            android:layout_marginTop="148sp"
+            android:background="#000" />
     </RelativeLayout>
 
 
