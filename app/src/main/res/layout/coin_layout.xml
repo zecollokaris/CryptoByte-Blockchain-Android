@@ -15,8 +15,8 @@
             android:id="@+id/coin_icon"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@mipmap/ic_launcher" />
@@ -26,12 +26,11 @@
             android:id="@+id/coin_symbol"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
             android:text="BTC"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@id/coin_icon"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="16dp" />
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="102dp" />
 
         <!--Divider-->
         <TextView
@@ -82,8 +81,9 @@
             android:id="@+id/oneHourText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="260dp"
             android:text="1hr"
             app:layout_constraintStart_toEndOf="@id/coin_icon"
             app:layout_constraintTop_toBottomOf="@id/coin_icon"
@@ -95,8 +95,9 @@
             android:id="@+id/percentChange1hText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="240dp"
             android:textColor="@color/colorCyanBlue"
             app:layout_constraintStart_toEndOf="@id/oneHourText"
             app:layout_constraintTop_toBottomOf="@id/coin_icon" />
@@ -107,8 +108,9 @@
             android:id="@+id/twentyFourHourText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="38dp"
-            android:layout_marginStart="38dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="276dp"
             android:text="24hr"
             app:layout_constraintStart_toEndOf="@id/percentChange1hText"
             app:layout_constraintTop_toBottomOf="@id/coin_icon"
@@ -120,8 +122,9 @@
             android:id="@+id/percentChange24hText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="260dp"
             android:textColor="@color/colorCyanBlue"
             app:layout_constraintStart_toEndOf="@id/twentyFourHourText"
             app:layout_constraintTop_toBottomOf="@id/coin_icon" />
@@ -132,10 +135,11 @@
             android:id="@+id/sevenDayText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
             android:text="7d"
             app:layout_constraintTop_toBottomOf="@id/coin_icon"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="19dp" />
+            tools:layout_editor_absoluteX="16dp" />
 
 
         <!--CryptoCurrency Percentage 7d Change -->
@@ -143,11 +147,19 @@
             android:id="@+id/percentChange7dText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="240dp"
             android:textColor="@color/colorCyanBlue"
             app:layout_constraintStart_toEndOf="@id/sevenDayText"
             app:layout_constraintTop_toBottomOf="@id/coin_icon" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="148dp" />
 
     </android.support.constraint.ConstraintLayout>
 
