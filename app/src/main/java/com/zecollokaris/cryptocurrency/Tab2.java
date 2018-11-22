@@ -60,7 +60,9 @@ public class Tab2 extends Fragment {
         auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(getActivity(),new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-                if(task.isSuccessful()){
+                if (task.isSuccessful()){
+                    Toast.makeText(getContext(), "Your Account Has Been Created. You Can Now Login!",Toast.LENGTH_SHORT).show();
+
 
                     FirebaseUser firebaseUser = auth.getCurrentUser();
                     assert firebaseUser != null;
@@ -74,9 +76,7 @@ public class Tab2 extends Fragment {
                     reference.setValue(hashMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
-                            if (task.isSuccessful()){
-                                Toast.makeText(getContext(), "Your Account Has Been Created. You Can Now Login!",Toast.LENGTH_SHORT).show();
-                            }
+
                         }
                     });
                 } else {

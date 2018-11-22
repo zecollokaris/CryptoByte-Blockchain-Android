@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.support.annotation.NonNull;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -18,12 +19,15 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MainActivity extends AppCompatActivity {
+    FirebaseAuth firebaseAuth;
+    FirebaseAuth.AuthStateListener authStateListener;
     private ViewPager mSlideViewPager;
         private LinearLayout mDotLayout;
         //TEXT VIEW TO HOLD DOT SLIDERS!
         private TextView[] mDots;
-
         private SliderAdapter sliderAdapter;
 
     //Buttons
@@ -46,12 +50,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        firebaseAuth=FirebaseAuth.getInstance();
+        createAuthListener();
         //VIEWSLIDERS
         mSlideViewPager = (ViewPager) findViewById(R.id.slideViewPager);
         mDotLayout = (LinearLayout) findViewById(R.id.dotsLayout);
-
-
         //BUTTONS
         mNextBtn = (Button) findViewById(R.id.nxtBtn);
         mBackBtn = (Button) findViewById(R.id.prevBtn);
@@ -93,8 +96,21 @@ public class MainActivity extends AppCompatActivity {
             }
             
         });
+    }
 
-
+    @Override
+    public  void  onStart(){
+         super.onStart();
+         if(authStateListener!=null){
+             firebaseAuth.addAuthStateListener(authStateListener);
+         }
+    }
+    @Override
+    public  void  onStop(){
+        super.onStop();
+        if(authStateListener!=null){
+            firebaseAuth.removeAuthStateListener(authStateListener);
+        }
     }
 
 //##################################################################################################
@@ -178,6 +194,18 @@ public class MainActivity extends AppCompatActivity {
 
         }
     };
+
+    public  void createAuthListener(){
+        authStateListener=new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                if(firebaseAuth.getCurrentUser()!=null){
+                    Intent intent=new Intent(MainActivity.this,CoinActivity.class);
+                    startActivity(intent);
+                }
+            }
+        };
+    }
 
 
 }
