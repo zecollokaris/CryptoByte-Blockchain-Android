@@ -121,7 +121,7 @@
                 android:id="@+id/registerBtn"
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
-                android:layout_marginTop="117sp"
+                android:layout_marginTop="115sp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:textColor="@color/colorTransparentWhite"
