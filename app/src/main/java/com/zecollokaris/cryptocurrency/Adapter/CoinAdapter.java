@@ -66,9 +66,17 @@ public class CoinAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         CoinModel item = items.get(position);
         CoinViewHolder holderItem = (CoinViewHolder)holder;
 
+        float usd=Float.parseFloat(item.getPrice_usd());
+        Log.d("USD",Float.toString(usd));
+
+        usd=(usd*1000000);
+        Log.d("ROUNDUSD",Float.toString(usd));
+        float round= (float) (Math.round(usd)/1000000.0);
+        Log.d("ROUND",Float.toString(round));
+
         holderItem.coin_name.setText(item.getName());
         holderItem.coin_symbol.setText(item.getSymbol());
-        holderItem.coin_price.setText(item.getPrice_usd());
+        holderItem.coin_price.setText(Float.toString(round));
         holderItem.seven_days_change.setText(item.getPercent_change_7d()+"%");
 
         //Load Images (Picasso)

@@ -1,11 +1,21 @@
 package com.zecollokaris.cryptocurrency;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
+import android.support.v7.widget.Toolbar;
+
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.zecollokaris.cryptocurrency.Adapter.CoinAdapter;
@@ -15,6 +25,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;
@@ -22,23 +34,22 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class CoinActivity extends AppCompatActivity {
-
+    @BindView(R.id.coinToolbar) Toolbar toolbar;
     List<CoinModel> items = new ArrayList<>();
     CoinAdapter adapter;
     RecyclerView recyclerView;
-
     OkHttpClient client;
     Request request;
-
-
     SwipeRefreshLayout swipeRefreshLayout;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.coin_main);
+        ButterKnife.bind(this);
+        setSupportActionBar(toolbar);
 
+        getSupportActionBar().setTitle("Price Indication");
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.rootLayout);
         swipeRefreshLayout.post(new Runnable() {
             @Override
@@ -46,7 +57,6 @@ public class CoinActivity extends AppCompatActivity {
                 loadFirst10Coin(0);
             }
         });
-
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -147,5 +157,24 @@ public class CoinActivity extends AppCompatActivity {
             swipeRefreshLayout.setRefreshing(false);
     }
 
+    @Override
+    public  boolean  onCreateOptionsMenu(Menu menu){
+        MenuInflater menuInflater=getMenuInflater();
+        menuInflater.inflate(R.menu.coinmenu,menu);
+       return  super.onCreateOptionsMenu(menu);
+    }
+
+
+    @Override
+    public  boolean onOptionsItemSelected(MenuItem menuItem){
+        switch (menuItem.getItemId()){
+            case R.id.btnLogout:
+                FirebaseAuth.getInstance().signOut();
+                Intent intent=new Intent(CoinActivity.this,MainActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return  true;
+    }
 
 }

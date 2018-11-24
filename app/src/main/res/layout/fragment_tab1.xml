@@ -96,7 +96,7 @@
                 android:id="@+id/loginbtn"
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
-                android:layout_marginTop="180dp"
+                android:layout_marginTop="180sp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:textAlignment="center"

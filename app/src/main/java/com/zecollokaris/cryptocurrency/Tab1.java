@@ -17,18 +17,20 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import android.app.ProgressDialog;
 
 
 public class Tab1 extends Fragment {
     EditText email, password;
     Button mLoginBtn;
     FirebaseAuth auth;
-
+    ProgressDialog dialog;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.fragment_tab1, container, false);
 
+        View view=inflater.inflate(R.layout.fragment_tab1, container, false);
+        createDialog();
         auth = FirebaseAuth.getInstance();
 
         email = view.findViewById(R.id.email);
@@ -45,11 +47,12 @@ public class Tab1 extends Fragment {
                     Toast.makeText(getContext(), "All Fields are required!",Toast.LENGTH_SHORT).show();
                 }
                 else {
+                    dialog.show();
                     auth.signInWithEmailAndPassword(txt_email, txt_password)
                             .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
-
+                                    dialog.dismiss();
                                     if (task.isSuccessful()){
                                         Intent intent = new Intent(getActivity(), CoinActivity.class);
                                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -65,4 +68,13 @@ public class Tab1 extends Fragment {
         });
         return  view;
     }
+
+    public void createDialog(){
+        dialog=new ProgressDialog(getContext());
+        dialog.setTitle("Authenticating User");
+        dialog.setMessage("Loading... Please Wait");
+
+    }
+
+
 }
