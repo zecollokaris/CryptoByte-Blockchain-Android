@@ -75,21 +75,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="255sp"
-            android:layout_marginTop="105sp"
+            android:layout_marginTop="100sp"
             android:text="USD"
             android:textColor="@color/colorTransparentWhite"
-            android:textSize="30sp" />
+            android:textSize="35sp" />
 
         <!--CryptoCurrency 1hr Watch!-->
         <TextView
             android:id="@+id/oneHourText"
-            android:layout_width="30sp"
-            android:layout_height="15sp"
-            android:layout_marginLeft="230sp"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280sp"
             android:layout_marginTop="20sp"
             android:text="%1hr"
+            android:textSize="16sp"
             android:textAlignment="center"
-            android:textColor="@color/colorTransparentWhite"/>
+            android:textColor="@color/colorAccent"/>
 
 
         <!--CryptoCurrency Percentage 1hr% Change -->
@@ -97,22 +98,25 @@
             android:id="@+id/percentChange1hText"
             android:layout_width="40sp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="280sp"
+            android:layout_marginLeft="230sp"
             android:layout_marginTop="20sp"
+            android:text="%1hr"
+            android:textColor="@color/colorTransparentWhite"
             android:textAlignment="center"/>
 
 
         <!--CryptoCurrency 24hr Watch!-->
         <TextView
             android:id="@+id/twentyFourHourText"
-            android:layout_width="40sp"
+            android:layout_width="60sp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:text="%24hr"
-            android:layout_marginLeft="230sp"
+            android:layout_marginLeft="280sp"
             android:layout_marginTop="50sp"
+            android:textSize="16sp"
             android:textAlignment="center"
-            android:textColor="@color/colorTransparentWhite"/>
+            android:textColor="@color/colorAccent"/>
 
 
         <!--CryptoCurrency Percentage 24hr% Change -->
@@ -121,20 +125,23 @@
             android:layout_width="40sp"
             android:layout_height="wrap_content"
             android:layout_marginTop="50sp"
-            android:layout_marginLeft="280sp"
-            android:textAlignment="center"/>
+            android:layout_marginLeft="230sp"
+            android:textAlignment="center"
+            android:text="%24hr"
+            android:textColor="@color/colorTransparentWhite"/>
 
 
         <!--CryptoCurrency 7days Watch!-->
         <TextView
             android:id="@+id/sevenDayText"
-            android:layout_width="30sp"
+            android:layout_width="60sp"
             android:layout_height="wrap_content"
             android:text="%7d"
-            android:layout_marginLeft="230sp"
+            android:layout_marginLeft="280sp"
             android:layout_marginTop="80sp"
             android:textAlignment="center"
-            android:textColor="@color/colorTransparentWhite"/>
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"/>
 
 
         <!--CryptoCurrency Percentage 7d Change -->
@@ -142,8 +149,10 @@
             android:id="@+id/percentChange7dText"
             android:layout_width="40sp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="280sp"
-            android:textColor="@color/colorCyanBlue"
+            android:layout_marginLeft="230sp"
+            android:text="%7d"
+            android:textAlignment="center"
+            android:textColor="@color/colorTransparentWhite"
             android:layout_marginTop="80sp"/>
 
         <View

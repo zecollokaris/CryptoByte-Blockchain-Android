@@ -22,16 +22,19 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
+import android.app.ProgressDialog;
 
 public class Tab2 extends Fragment {
     Button mRegisterBtn;
     EditText username, email, password;
     FirebaseAuth auth;
     DatabaseReference reference;
+    ProgressDialog dialog;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
           View view=inflater.inflate(R.layout.fragment_tab2, container, false);
+          createDialog();
           mRegisterBtn=(Button) view.findViewById(R.id.registerBtn);
           username = view.findViewById(R.id.username);
           email = view.findViewById(R.id.email);
@@ -44,6 +47,7 @@ public class Tab2 extends Fragment {
                   String txt_email = email.getText().toString().trim();
                   String txt_password = password.getText().toString();
 
+                  dialog.show();
                   if (TextUtils.isEmpty(txt_username) || TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_password)) {
                       Toast.makeText(getContext(), "All Fields are required!",Toast.LENGTH_SHORT).show();
                   } else if (txt_password.length() < 6) {
@@ -60,6 +64,7 @@ public class Tab2 extends Fragment {
         auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(getActivity(),new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+                dialog.dismiss();
                 if (task.isSuccessful()){
                     Toast.makeText(getContext(), "Your Account Has Been Created. You Can Now Login!",Toast.LENGTH_SHORT).show();
 
@@ -85,4 +90,12 @@ public class Tab2 extends Fragment {
             }
         });
     }
+
+    public void createDialog(){
+        dialog=new ProgressDialog(getContext());
+        dialog.setTitle("Authenticating User");
+        dialog.setMessage("Loading ...");
+    }
+
+
 }

@@ -49,6 +49,7 @@ public class CoinActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setTitle("abcd");
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.rootLayout);
         swipeRefreshLayout.post(new Runnable() {
             @Override
