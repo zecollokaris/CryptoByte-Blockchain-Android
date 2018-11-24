@@ -47,12 +47,13 @@ public class Tab2 extends Fragment {
                   String txt_email = email.getText().toString().trim();
                   String txt_password = password.getText().toString();
 
-                  dialog.show();
+
                   if (TextUtils.isEmpty(txt_username) || TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_password)) {
                       Toast.makeText(getContext(), "All Fields are required!",Toast.LENGTH_SHORT).show();
                   } else if (txt_password.length() < 6) {
                       Toast.makeText(getContext(), "Password must be atleast 6 characters!",Toast.LENGTH_SHORT).show();
                   } else {
+                      dialog.show();
                       register(txt_username, txt_email, txt_password);
                   }
               }

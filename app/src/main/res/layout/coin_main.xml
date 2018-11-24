@@ -7,10 +7,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <android.support.v7.widget.Toolbar
-        android:background="#000E21"
+        android:background="@color/colorPrimaryDark"
         android:id="@+id/coinToolbar"
         android:layout_width="match_parent"
-        app:titleTextColor="@color/colorCyanBlue"
+        app:titleTextColor="@color/colorAccent"
         app:popupTheme="@style/ThemeOverlay.MyTheme"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:layout_height="?attr/actionBarSize"/>

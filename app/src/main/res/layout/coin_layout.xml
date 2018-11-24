@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="150sp"
-        android:background="@color/colorDarkBlue">
+        android:background="@color/colorCoinBackground">
 
 
         <!--CryptoCurrency Image-->
@@ -157,9 +157,9 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="0.6sp"
             android:layout_marginTop="148sp"
-            android:background="#000" />
+            android:background="#7a253d54" />
     </RelativeLayout>
 
 
