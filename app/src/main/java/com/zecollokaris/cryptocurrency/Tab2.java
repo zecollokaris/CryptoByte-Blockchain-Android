@@ -94,8 +94,8 @@ public class Tab2 extends Fragment {
 
     public void createDialog(){
         dialog=new ProgressDialog(getContext());
-        dialog.setTitle("Authenticating User");
-        dialog.setMessage("Loading ...");
+        dialog.setTitle("Registering User");
+        dialog.setMessage("Loading... Please Wait");
     }
 
 

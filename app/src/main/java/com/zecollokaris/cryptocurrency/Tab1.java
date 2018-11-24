@@ -72,7 +72,7 @@ public class Tab1 extends Fragment {
     public void createDialog(){
         dialog=new ProgressDialog(getContext());
         dialog.setTitle("Authenticating User");
-        dialog.setMessage("Loading ...");
+        dialog.setMessage("Loading... Please Wait");
 
     }
 

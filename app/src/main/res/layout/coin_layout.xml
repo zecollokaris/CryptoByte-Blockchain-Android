@@ -89,7 +89,6 @@
             android:layout_marginTop="20sp"
             android:text="%1hr"
             android:textSize="16sp"
-            android:textAlignment="center"
             android:textColor="@color/colorAccent"/>
 
 
@@ -101,8 +100,7 @@
             android:layout_marginLeft="230sp"
             android:layout_marginTop="20sp"
             android:text="%1hr"
-            android:textColor="@color/colorTransparentWhite"
-            android:textAlignment="center"/>
+            android:textColor="@color/colorTransparentWhite"/>
 
 
         <!--CryptoCurrency 24hr Watch!-->
@@ -115,7 +113,6 @@
             android:layout_marginLeft="280sp"
             android:layout_marginTop="50sp"
             android:textSize="16sp"
-            android:textAlignment="center"
             android:textColor="@color/colorAccent"/>
 
 
@@ -126,7 +123,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50sp"
             android:layout_marginLeft="230sp"
-            android:textAlignment="center"
             android:text="%24hr"
             android:textColor="@color/colorTransparentWhite"/>
 
@@ -139,7 +135,6 @@
             android:text="%7d"
             android:layout_marginLeft="280sp"
             android:layout_marginTop="80sp"
-            android:textAlignment="center"
             android:textSize="16sp"
             android:textColor="@color/colorAccent"/>
 
@@ -151,7 +146,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="230sp"
             android:text="%7d"
-            android:textAlignment="center"
             android:textColor="@color/colorTransparentWhite"
             android:layout_marginTop="80sp"/>
 
