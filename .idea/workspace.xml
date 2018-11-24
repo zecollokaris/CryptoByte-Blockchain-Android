@@ -113,7 +113,7 @@
       <file leaf-file-name="coin_layout.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coin_layout.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
+            <state relative-caret-position="181">
               <caret line="138" column="51" lean-forward="false" selection-start-line="138" selection-start-column="51" selection-end-line="138" selection-end-column="51" />
               <folding />
             </state>
@@ -2322,9 +2322,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="453" />
-    <option name="y" value="60" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="908" />
+    <option name="y" value="521" />
     <option name="width" value="937" />
     <option name="height" value="860" />
   </component>
@@ -2630,7 +2630,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="453" y="60" width="937" height="860" extended-state="1" />
+    <frame x="908" y="521" width="937" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -3085,7 +3085,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/coin_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
+        <state relative-caret-position="181">
           <caret line="138" column="51" lean-forward="false" selection-start-line="138" selection-start-column="51" selection-end-line="138" selection-end-column="51" />
           <folding />
         </state>
