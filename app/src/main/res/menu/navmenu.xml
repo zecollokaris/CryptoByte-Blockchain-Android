@@ -21,7 +21,7 @@
         <menu>
             <item android:id="@+id/navmpesa"
                 android:icon="@drawable/key"
-                android:title="Share/">
+                android:title="Mpesa">
             </item>
             <item android:id="@+id/navabout"
                 android:icon="@drawable/key"

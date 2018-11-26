@@ -83,15 +83,39 @@ public class CoinActivity extends AppCompatActivity implements NavigationView.On
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
+        if (savedInstanceState == null) {
+
+            Intent intent = new Intent(getBaseContext(), CoinActivity.class);
+            startActivity(intent);
+            navigationView.setCheckedItem(R.id.nav_dashboard);
+        }
+
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
-            case R.id.nav_prof:
 
+            case R.id.nav_dashboard:
+                Intent intent=new Intent(getBaseContext(),CoinActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.nav_profile:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProfileFragment()).commit();
+                break;
+
+            case R.id.nav_favorites:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FavouritesFragment()).commit();
+                break;
+
+            case R.id.navmpesa:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MpesaFragment()).commit();
                 break;
         }
+
+        drawer.closeDrawer(GravityCompat.START);
+
         return true;
     }
 
