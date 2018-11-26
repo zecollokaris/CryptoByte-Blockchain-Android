@@ -44,6 +44,7 @@
             android:layout_marginLeft="85sp"
             android:layout_marginTop="40sp"
             android:text="|"
+            app:fontFamily="@font/cabinsketchregular"
             android:textAlignment="center"
             android:textColor="@color/colorCyanBlue"/>
 
@@ -80,7 +81,7 @@
             android:layout_marginLeft="255sp"
             android:layout_marginTop="100sp"
             android:text="USD"
-            app:fontFamily="@font/chakrapetchbold"
+            app:fontFamily="@font/josefinslabbold"
             android:textColor="@android:color/holo_orange_light"
             android:textSize="35sp" />
 
@@ -92,7 +93,7 @@
             android:layout_marginLeft="280sp"
             android:layout_marginTop="20sp"
             android:text="%1hr"
-            app:fontFamily="@font/specialeliteregular"
+            app:fontFamily="@font/poiretoneregular"
             android:textSize="16sp"
             android:textColor="@color/colorAccent"/>
 
@@ -119,6 +120,7 @@
             android:layout_marginLeft="280sp"
             android:layout_marginTop="50sp"
             android:textSize="16sp"
+            app:fontFamily="@font/poiretoneregular"
             android:textColor="@color/colorAccent"/>
 
 
@@ -143,6 +145,7 @@
             android:layout_marginLeft="280sp"
             android:layout_marginTop="80sp"
             android:textSize="16sp"
+            app:fontFamily="@font/poiretoneregular"
             android:textColor="@color/colorAccent"/>
 
 
