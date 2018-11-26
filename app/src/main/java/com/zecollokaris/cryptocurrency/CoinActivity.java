@@ -3,7 +3,9 @@ package com.zecollokaris.cryptocurrency;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -34,6 +36,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class CoinActivity extends AppCompatActivity {
+    private DrawerLayout drawer;
     @BindView(R.id.coinToolbar) Toolbar toolbar;
     List<CoinModel> items = new ArrayList<>();
     CoinAdapter adapter;
@@ -70,6 +73,9 @@ public class CoinActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         setupAdapter();
 
+        drawer =  findViewById(R.id.drawer_layout);
+
+        ActionBarDrawerToggle
 
     }
 
