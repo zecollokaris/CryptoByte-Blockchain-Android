@@ -34,7 +34,8 @@
             android:text="(BTC)"
             android:textAlignment="center"
             android:textColor="@color/colorTransparentWhite"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:fontFamily="@font/poiretoneregular"/>
 
         <!--Divider-->
         <TextView
@@ -45,7 +46,7 @@
             android:layout_marginTop="40sp"
             android:text="|"
             android:textAlignment="center"
-            android:textColor="@color/colorCyanBlue" />
+            android:textColor="@color/colorCyanBlue"/>
 
         <!--CryptoCurrency Name-->
         <TextView
@@ -57,7 +58,8 @@
             android:layout_marginTop="40sp"
             android:text="Bitcoin"
             android:textAlignment="center"
-            android:textColor="@color/colorTransparentWhite" />
+            android:textColor="@color/colorTransparentWhite"
+            app:fontFamily="@font/chakrapetchbold"/>
 
         <!--CryptoCurrency Sign-->
         <TextView

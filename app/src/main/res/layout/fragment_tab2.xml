@@ -55,7 +55,8 @@
                 android:padding="1dp"
                 android:inputType="text"
                 android:textColorHint="@color/colorTransparentWhite"
-                android:textColor="@color/colorCyanBlue"/>
+                android:textColor="@color/colorCyanBlue"
+                app:fontFamily="@font/poiretoneregular"/>
 
             <View
                 android:layout_width="match_parent"
@@ -87,7 +88,8 @@
                 android:maxLines="1"
                 android:padding="1dp"
                 android:textColorHint="@color/colorTransparentWhite"
-                android:textColor="@color/colorCyanBlue"/>
+                android:textColor="@color/colorCyanBlue"
+                app:fontFamily="@font/poiretoneregular"/>
 
             <View
                 android:layout_width="match_parent"
@@ -109,7 +111,8 @@
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:textColorHint="@color/colorTransparentWhite"
-                android:textColor="@color/colorCyanBlue"/>
+                android:textColor="@color/colorCyanBlue"
+                app:fontFamily="@font/poiretoneregular"/>
 
             <View
                 android:layout_width="match_parent"
@@ -127,8 +130,9 @@
                 android:textColor="@color/colorTransparentWhite"
                 android:background="@color/colorCyanBlue"
                 android:textAlignment="center"
-                android:text="Register"
-                android:textAllCaps="false"/>
+                android:text="REGISTER"
+                android:textAllCaps="false"
+                app:fontFamily="@font/josefinslabbold"/>
 
 
         </LinearLayout>
