@@ -26,7 +26,7 @@
         <!--CryptoCurrency Initials -->
         <TextView
             android:id="@+id/coin_symbol"
-            android:layout_width="56sp"
+            android:layout_width="70sp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/coin_icon"
             android:layout_below="@+id/coin_icon"
@@ -42,7 +42,7 @@
             android:layout_width="10sp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="85sp"
-            android:layout_marginTop="40sp"
+            android:layout_marginTop="45sp"
             android:text="|"
             app:fontFamily="@font/cabinsketchregular"
             android:textAlignment="center"
@@ -81,7 +81,7 @@
             android:layout_marginLeft="255sp"
             android:layout_marginTop="100sp"
             android:text="USD"
-            app:fontFamily="@font/josefinslabbold"
+            app:fontFamily="@font/josefinslabregular"
             android:textColor="@android:color/holo_orange_light"
             android:textSize="35sp" />
 
