@@ -4,28 +4,28 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_message"
+        <item android:id="@+id/nav_dashboard"
             android:icon="@drawable/key"
-            android:title="Message">
+            android:title="Dashboard">
         </item>
         <item android:id="@+id/nav_favorites"
             android:icon="@drawable/key"
             android:title="Favourites">
         </item>
-        <item android:id="@+id/nav_about"
+        <item android:id="@+id/nav_profile"
             android:icon="@drawable/key"
-            android:title="About">
+            android:title="Profile">
         </item>
     </group>
     <item android:title="Communicate">
         <menu>
-            <item android:id="@+id/navshare"
+            <item android:id="@+id/navmpesa"
                 android:icon="@drawable/key"
                 android:title="Share/">
             </item>
-            <item android:id="@+id/navsend"
+            <item android:id="@+id/navabout"
                 android:icon="@drawable/key"
-                android:title="Send/">
+                android:title="About">
             </item>
         </menu>
     </item>
