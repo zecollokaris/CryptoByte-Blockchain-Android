@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v4.widget.DrawerLayout android:layout_width="match_parent"
+<RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/drawer_layout"
-    android:fitsSystemWindows="true"
-    tools:context="com.zecollokaris.cryptocurrency.CoinActivity"
-    tools:openDrawer="start">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
     <android.support.v7.widget.Toolbar
         android:background="@color/colorPrimaryDark"
         android:id="@+id/coinToolbar"
         android:layout_width="match_parent"
         app:titleTextColor="@color/colorAccent"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         android:layout_height="?attr/actionBarSize"
         android:elevation="4sp"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/drawer_layout"
+        android:fitsSystemWindows="true"
+        tools:context="com.zecollokaris.cryptocurrency.CoinActivity"
+        tools:openDrawer="start">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
 
         <FrameLayout
             android:id="@+id/fragment_container"
@@ -33,7 +42,7 @@
         </FrameLayout>
 
     </LinearLayout>
-    
+
     <android.support.design.widget.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -64,4 +73,7 @@
         </android.support.v7.widget.RecyclerView>
 
     </android.support.v4.widget.SwipeRefreshLayout>
-</android.support.v4.widget.DrawerLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

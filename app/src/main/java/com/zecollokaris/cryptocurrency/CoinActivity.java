@@ -70,7 +70,6 @@ public class CoinActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         setupAdapter();
 
-        setSupportActionBar(toolbar);
 
     }
 
@@ -135,7 +134,7 @@ public class CoinActivity extends AppCompatActivity {
                 .enqueue(new Callback() {
                     @Override
                     public void onFailure(Call call, IOException e) {
-                        Toast.makeText(CoinActivity.this,e.getMessage(),Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(CoinActivity.this,e.getMessage(),Toast.LENGTH_SHORT).show();
                     }
 
                     @Override
