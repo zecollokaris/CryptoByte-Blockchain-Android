@@ -34,8 +34,7 @@
             android:text="(BTC)"
             android:textAlignment="center"
             android:textColor="@color/colorTransparentWhite"
-            android:textStyle="bold"
-            app:fontFamily="@font/poiretoneregular"/>
+            app:fontFamily="@font/unlockregular"/>
 
         <!--Divider-->
         <TextView
@@ -57,9 +56,10 @@
             android:layout_marginLeft="100sp"
             android:layout_marginTop="40sp"
             android:text="Bitcoin"
+            app:fontFamily="@font/chakrapetchbold"
             android:textAlignment="center"
             android:textColor="@color/colorTransparentWhite"
-            app:fontFamily="@font/chakrapetchbold"/>
+            />
 
         <!--CryptoCurrency Sign-->
         <TextView
@@ -80,7 +80,8 @@
             android:layout_marginLeft="255sp"
             android:layout_marginTop="100sp"
             android:text="USD"
-            android:textColor="@color/colorTransparentWhite"
+            app:fontFamily="@font/chakrapetchbold"
+            android:textColor="@android:color/holo_orange_light"
             android:textSize="35sp" />
 
         <!--CryptoCurrency 1hr Watch!-->
@@ -91,6 +92,7 @@
             android:layout_marginLeft="280sp"
             android:layout_marginTop="20sp"
             android:text="%1hr"
+            app:fontFamily="@font/specialeliteregular"
             android:textSize="16sp"
             android:textColor="@color/colorAccent"/>
 
@@ -103,6 +105,7 @@
             android:layout_marginLeft="230sp"
             android:layout_marginTop="20sp"
             android:text="%1hr"
+            app:fontFamily="@font/josefinslabbold"
             android:textColor="@color/colorTransparentWhite"/>
 
 
@@ -127,6 +130,7 @@
             android:layout_marginTop="50sp"
             android:layout_marginLeft="230sp"
             android:text="%24hr"
+            app:fontFamily="@font/josefinslabbold"
             android:textColor="@color/colorTransparentWhite"/>
 
 
@@ -149,6 +153,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="230sp"
             android:text="%7d"
+            app:fontFamily="@font/josefinslabbold"
             android:textColor="@color/colorTransparentWhite"
             android:layout_marginTop="80sp"/>
 
