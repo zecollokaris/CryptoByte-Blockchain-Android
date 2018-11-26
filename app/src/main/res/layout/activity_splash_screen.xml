@@ -7,15 +7,29 @@
 
 
     <TextView
+        app:fontFamily="@font/monotonregular"
         android:id="@+id/splashText"
-        android:layout_width="169dp"
+        android:layout_width="300sp"
         android:layout_height="37dp"
         android:layout_below="@+id/imageView2"
         android:layout_centerHorizontal="true"
         android:text="CryptoByte"
         android:textAlignment="center"
-        android:textSize="25dp"
-        android:textColor="@color/colorTransparentWhite"/>
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/splashDesc"
+        android:layout_width="500sp"
+        android:layout_height="37sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="199sp"
+        android:text="A Trusted Source Of Live CryptoCurrency Price Charts"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="10sp"
+        app:fontFamily="@font/" />
 
     <ImageView
         android:id="@+id/imageView2"

@@ -83,12 +83,6 @@ public class CoinActivity extends AppCompatActivity implements NavigationView.On
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        if (savedInstanceState == null) {
-
-            Intent intent = new Intent(getBaseContext(), CoinActivity.class);
-            startActivity(intent);
-            navigationView.setCheckedItem(R.id.nav_dashboard);
-        }
 
     }
 
@@ -99,24 +93,28 @@ public class CoinActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_dashboard:
                 Intent intent=new Intent(getBaseContext(),CoinActivity.class);
                 startActivity(intent);
-                break;
+                drawer.closeDrawer(GravityCompat.START);
+                return  true;
 
             case R.id.nav_profile:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProfileFragment()).commit();
-                break;
+                drawer.closeDrawer(GravityCompat.START);
+                return  true;
 
             case R.id.nav_favorites:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FavouritesFragment()).commit();
-                break;
+                Intent intent2=new Intent(this,FavouritesActivity.class);
+                startActivity(intent2);
+                drawer.closeDrawer(GravityCompat.START);
+                return  true;
 
             case R.id.navmpesa:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MpesaFragment()).commit();
-                break;
+                drawer.closeDrawer(GravityCompat.START);
+                return  true;
         }
 
-        drawer.closeDrawer(GravityCompat.START);
 
-        return true;
+        return false;
     }
 
     @Override
