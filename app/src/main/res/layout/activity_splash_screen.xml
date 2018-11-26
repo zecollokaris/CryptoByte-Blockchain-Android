@@ -28,8 +28,8 @@
         android:text="A Trusted Source Of Live CryptoCurrency Price Charts"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
-        android:textSize="10sp"
-        app:fontFamily="@font/" />
+        android:textSize="16sp"
+        app:fontFamily="@font/reeniebeanie" />
 
     <ImageView
         android:id="@+id/imageView2"
