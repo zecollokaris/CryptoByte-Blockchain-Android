@@ -16,6 +16,7 @@
         <item name="android:textColor">@color/colorCyanBlue</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
 </resources>
