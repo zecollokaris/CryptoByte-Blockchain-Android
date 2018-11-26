@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
-
-    <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_message"
-            android:icon="@drawable/key"
-            android:title="Message">
-        </item>
-        <item android:id="@+id/nav_favorites"
-            android:icon="@drawable/key"
-            android:title="Favourites">
-        </item>
-        <item android:id="@+id/nav_about"
-            android:icon="@drawable/key"
-            android:title="About">
-        </item>
-    </group>
-    <item android:title="Communicate">
-        <menu>
-            <item android:id="@+id/navshare"
-                android:icon="@drawable/key"
-                android:title="Share/">
-            </item>
-            <item android:id="@+id/navsend"
-                android:icon="@drawable/key"
-                android:title="Send/">
-            </item>
-        </menu>
-    </item>
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/btnLogout"
         android:title="Logout"/>

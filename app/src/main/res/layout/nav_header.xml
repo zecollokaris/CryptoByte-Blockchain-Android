@@ -17,10 +17,12 @@
         android:layout_height="wrap_content"
         android:paddingTop="8sp"
         android:text="Coding in flow"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorWhite"/>
     
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="info@codeinflow.com"/>
+        android:text="info@codeinflow.com"
+        android:textColor="@color/colorWhite"/>
 </LinearLayout>
