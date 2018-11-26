@@ -88,7 +88,7 @@
         <!--CryptoCurrency 1hr Watch!-->
         <TextView
             android:id="@+id/oneHourText"
-            android:layout_width="60sp"
+            android:layout_width="80sp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="280sp"
             android:layout_marginTop="20sp"
@@ -113,7 +113,7 @@
         <!--CryptoCurrency 24hr Watch!-->
         <TextView
             android:id="@+id/twentyFourHourText"
-            android:layout_width="60sp"
+            android:layout_width="80sp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:text="%24hr"
@@ -139,7 +139,7 @@
         <!--CryptoCurrency 7days Watch!-->
         <TextView
             android:id="@+id/sevenDayText"
-            android:layout_width="60sp"
+            android:layout_width="80sp"
             android:layout_height="wrap_content"
             android:text="%7d"
             android:layout_marginLeft="280sp"
