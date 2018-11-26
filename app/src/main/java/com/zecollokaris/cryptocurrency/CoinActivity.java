@@ -70,6 +70,8 @@ public class CoinActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         setupAdapter();
 
+        setSupportActionBar(toolbar);
+
     }
 
     private void setupAdapter() {
