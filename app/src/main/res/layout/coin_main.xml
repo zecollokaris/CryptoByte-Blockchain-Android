@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout android:layout_width="match_parent"
+<RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <android.support.v7.widget.Toolbar
@@ -11,11 +11,46 @@
         android:id="@+id/coinToolbar"
         android:layout_width="match_parent"
         app:titleTextColor="@color/colorAccent"
-        app:popupTheme="@style/ThemeOverlay.MyTheme"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:layout_height="?attr/actionBarSize"/>
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4sp"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_below="@id/coinToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/drawer_layout"
+        tools:context="com.zecollokaris.cryptocurrency.CoinActivity"
+        tools:openDrawer="start">
 
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/navmenu">
+
+    </android.support.design.widget.NavigationView>
     <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -37,4 +72,7 @@
         </android.support.v7.widget.RecyclerView>
 
     </android.support.v4.widget.SwipeRefreshLayout>
-</LinearLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

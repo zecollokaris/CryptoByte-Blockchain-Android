@@ -56,7 +56,8 @@
                     android:maxLines="1"
                     android:padding="1dp"
                     android:textColorHint="@color/colorTransparentWhite"
-                    android:textColor="@color/colorCyanBlue"/>
+                    android:textColor="@color/colorCyanBlue"
+                    app:fontFamily="@font/poiretoneregular"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -82,7 +83,8 @@
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:textColorHint="@color/colorTransparentWhite"
-                    android:textColor="@color/colorCyanBlue"/>
+                    android:textColor="@color/colorCyanBlue"
+                    app:fontFamily="@font/poiretoneregular"/>
 
                 <View
                     android:layout_width="match_parent"
@@ -103,7 +105,8 @@
                 android:background="@color/colorAccent"
                 android:textColor="@color/colorTransparentWhite"
                 android:textAllCaps="false"
-                android:text="Log In"/>
+                android:text="LOG IN"
+                app:fontFamily="@font/josefinslabbold"/>
 
 
 

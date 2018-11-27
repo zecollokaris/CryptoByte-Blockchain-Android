@@ -3,13 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/cryptobg4ldark">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
         android:layout_height="452dp"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentTop="true"
+        app:fontFamily="@font/josefinslabbold"/>
 
     <LinearLayout
         android:id="@+id/dotsLayout"
@@ -26,7 +28,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/slideViewPager"
         android:background="@android:color/transparent"
-        android:text="Back"
+        android:text="BACK"
         android:textColor="@color/colorWhite"
         android:visibility="invisible" />
 
@@ -37,7 +39,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/slideViewPager"
         android:background="@android:color/transparent"
-        android:text="Next"
+        android:text="NEXT"
         android:textColor="@color/colorWhite" />
 
     <Button
@@ -48,9 +50,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="23dp"
         android:background="@color/colorAccent"
-        android:text="Get Started"
+        android:text="GET STARTED"
         android:textAlignment="center"
-        android:textColor="@color/colorTransparentWhite" />
+        android:textColor="@color/colorTransparentWhite"
+        app:fontFamily="@font/josefinslabbold"/>
 
 
 </RelativeLayout>

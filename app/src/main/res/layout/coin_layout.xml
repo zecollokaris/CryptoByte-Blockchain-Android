@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+
 
 
     <RelativeLayout
@@ -25,7 +26,7 @@
         <!--CryptoCurrency Initials -->
         <TextView
             android:id="@+id/coin_symbol"
-            android:layout_width="56sp"
+            android:layout_width="70sp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/coin_icon"
             android:layout_below="@+id/coin_icon"
@@ -33,7 +34,7 @@
             android:text="(BTC)"
             android:textAlignment="center"
             android:textColor="@color/colorTransparentWhite"
-            android:textStyle="bold" />
+            app:fontFamily="@font/unlockregular"/>
 
         <!--Divider-->
         <TextView
@@ -41,10 +42,11 @@
             android:layout_width="10sp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="85sp"
-            android:layout_marginTop="40sp"
+            android:layout_marginTop="45sp"
             android:text="|"
+            app:fontFamily="@font/cabinsketchregular"
             android:textAlignment="center"
-            android:textColor="@color/colorCyanBlue" />
+            android:textColor="@color/colorCyanBlue"/>
 
         <!--CryptoCurrency Name-->
         <TextView
@@ -55,17 +57,21 @@
             android:layout_marginLeft="100sp"
             android:layout_marginTop="40sp"
             android:text="Bitcoin"
+            app:fontFamily="@font/chakrapetchbold"
             android:textAlignment="center"
-            android:textColor="@color/colorTransparentWhite" />
+            android:textColor="@color/colorTransparentWhite"
+            />
 
         <!--CryptoCurrency Sign-->
         <TextView
             android:id="@+id/coin_sign"
-            android:layout_width="20sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="230sp"
-            android:layout_marginTop="120sp"
+            android:layout_marginTop="105sp"
             android:text="$"
+            android:textSize="25sp"
+            app:fontFamily="@font/chakrapetchbold"
             android:textAlignment="center"
             android:textColor="@color/colorTransparentWhite" />
 
@@ -75,19 +81,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="255sp"
-            android:layout_marginTop="100sp"
+            android:layout_marginTop="105sp"
             android:text="USD"
-            android:textColor="@color/colorTransparentWhite"
+            app:fontFamily="@font/josefinslabregular"
+            android:textColor="@android:color/holo_orange_light"
             android:textSize="35sp" />
 
         <!--CryptoCurrency 1hr Watch!-->
         <TextView
             android:id="@+id/oneHourText"
-            android:layout_width="60sp"
+            android:layout_width="80sp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="280sp"
             android:layout_marginTop="20sp"
             android:text="%1hr"
+            app:fontFamily="@font/poiretoneregular"
             android:textSize="16sp"
             android:textColor="@color/colorAccent"/>
 
@@ -100,19 +108,21 @@
             android:layout_marginLeft="230sp"
             android:layout_marginTop="20sp"
             android:text="%1hr"
+            app:fontFamily="@font/josefinslabbold"
             android:textColor="@color/colorTransparentWhite"/>
 
 
         <!--CryptoCurrency 24hr Watch!-->
         <TextView
             android:id="@+id/twentyFourHourText"
-            android:layout_width="60sp"
+            android:layout_width="80sp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:text="%24hr"
             android:layout_marginLeft="280sp"
             android:layout_marginTop="50sp"
             android:textSize="16sp"
+            app:fontFamily="@font/poiretoneregular"
             android:textColor="@color/colorAccent"/>
 
 
@@ -124,18 +134,20 @@
             android:layout_marginTop="50sp"
             android:layout_marginLeft="230sp"
             android:text="%24hr"
+            app:fontFamily="@font/josefinslabbold"
             android:textColor="@color/colorTransparentWhite"/>
 
 
         <!--CryptoCurrency 7days Watch!-->
         <TextView
             android:id="@+id/sevenDayText"
-            android:layout_width="60sp"
+            android:layout_width="80sp"
             android:layout_height="wrap_content"
             android:text="%7d"
             android:layout_marginLeft="280sp"
             android:layout_marginTop="80sp"
             android:textSize="16sp"
+            app:fontFamily="@font/poiretoneregular"
             android:textColor="@color/colorAccent"/>
 
 
@@ -146,6 +158,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="230sp"
             android:text="%7d"
+            app:fontFamily="@font/josefinslabbold"
             android:textColor="@color/colorTransparentWhite"
             android:layout_marginTop="80sp"/>
 
@@ -157,4 +170,4 @@
     </RelativeLayout>
 
 
-</android.support.v7.widget.CardView>
+</RelativeLayout>
