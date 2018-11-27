@@ -70,7 +70,9 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 
 
-## COIN MARKET API
+## COIN MARKET CAP API
+
+Coin Market API Provides crypto market data endpoints market price listing based on trade volume and market capitalization.
 
 For CryptoByte Gson components were used to parse JSON into Java objects.
 
@@ -92,6 +94,11 @@ This endpoint displays the global data found at the top of coinmarketcap.com.
 
 **Limits**
 
+API Endpoints are update every 5 minutes.
+
+**Mics**
+
+All 'last_updated' fields are [unix timestamps](https://en.wikipedia.org/wiki/Unix_time)
 
 
 ## **SETUP/INSTALLATION!**
@@ -111,7 +118,8 @@ Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 
 6. If you have all the **Pre-requisites**
 
-7. Open your Android Studio Editor and run the Application.
+7. Open your Editor and run the Application.
+
 
 ## Support & Contact
 
