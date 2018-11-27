@@ -54,7 +54,7 @@ public class SplashScreen extends AppCompatActivity {
     mLogo.startAnimation(rotate);
 
 
-    
+
     Thread myThread = new Thread(){
         @Override
         public void run(){
