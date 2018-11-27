@@ -40,7 +40,6 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 
 
-
 ### TECHNOLOGIES USED:
 
 1. **[Java](https://java.com/en/download/)**
@@ -63,9 +62,13 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 - **Coin Market Cap** is a platform which provides fast, reliable and unified data APIs to cryptocurrency markets.
 
-- Coin Market API was used to get price listings on cryptocurrencies based on trade volume and market capitalization.
+- **Coin Market API** was used to get price listings on cryptocurrencies based on trade volume and market capitalization.
 
-- For more info about the API check out the API Section.
+- For more info about the API check out the API Section below.
+
+6. **[FireBAse](https://firebase.google.com/)**
+
+- 
 
 
 
