@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_dashboard"
             android:icon="@drawable/dashboard"
             android:title="Dashboard">
         </item>
         <item android:id="@+id/nav_favorites"
-            android:icon="@drawable/key"
+            android:icon="@drawable/favourite"
             android:title="Favourites">
         </item>
         <item android:id="@+id/nav_profile"
-            android:icon="@drawable/key"
+            android:icon="@drawable/profile"
             android:title="Profile">
         </item>
     </group>
-    <item android:title="Communicate">
+    <item android:title="Apllication">
         <menu>
             <item android:id="@+id/navmpesa"
-                android:icon="@drawable/key"
+                android:icon="@drawable/payment"
                 android:title="Mpesa">
             </item>
+
             <item android:id="@+id/navabout"
-                android:icon="@drawable/key"
+                android:icon="@drawable/about"
                 android:title="About">
             </item>
         </menu>
@@ -32,6 +33,7 @@
 
     <item
         android:id="@+id/btnLogout"
+        android:icon="@drawable/logout"
         android:title="Logout"/>
 
 </menu>

@@ -40,25 +40,6 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 
 
-## **SETUP/INSTALLATION!**
-
-
-1. You will need Internet connection.
-
-2. You need to get into the Coin-Base-BlockChain-Android Repository.
-
-Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
-
-3. From there you can access CryptoByte.
-
-4. **Clone** the project.
-
-5. **get into project folder** (cd into project).
-
-6. If you have all the **Pre-requisites**
-
-7. Open your Android Studio Editor and run the Application.
-
 
 ### TECHNOLOGIES USED:
 
@@ -77,6 +58,39 @@ Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 4. **[Android Build Tools](https://developer.android.com/studio/releases/build-tools)**
 
 - **For debugging, building, running and testing an Android applications.**
+
+5. **[Coin Market Cap](https://coinmarketcap.com/api/documentation/v1/)**
+
+- **Coin Market Cap** is a platform which provides fast, reliable and unified data APIs to cryptocurrency markets.
+
+- Coin Market API was used to get price listings on cryptocurrencies based on trade volume and market capitalization.
+
+- For more info about the API check out the API Section.
+
+
+## COIN MARKET API
+
+
+
+
+## **SETUP/INSTALLATION!**
+
+
+1. You will need Internet connection.
+
+2. You need to get into the Coin-Base-BlockChain-Android Repository.
+
+Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
+
+3. From there you can access CryptoByte.
+
+4. **Clone** the project.
+
+5. **get into project folder** (cd into project).
+
+6. If you have all the **Pre-requisites**
+
+7. Open your Android Studio Editor and run the Application.
 
 ## Support & Contact
 

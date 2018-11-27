@@ -17,7 +17,7 @@
             android:layout_width="186dp"
             android:layout_height="159dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/cryptologoorigi" />
+            app:srcCompat="@drawable/cryptologoorigi"/>
 
     </LinearLayout>
 
