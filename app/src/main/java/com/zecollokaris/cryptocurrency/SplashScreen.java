@@ -14,7 +14,7 @@ import butterknife.ButterKnife;
 
 public class SplashScreen extends AppCompatActivity {
     @BindView (R.id.imageView2) ImageView mLogo;
-    LinearLayout titleimage,titletxt;
+    LinearLayout descimage,desctxt;
     Animation uptodown,downtoup;
 
     @Override
@@ -23,12 +23,12 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
         ButterKnife.bind(this);
 
-        titleimage = (LinearLayout) findViewById(R.id.titleimage);
-        titletxt = (LinearLayout) findViewById(R.id.titletxt);
+        descimage = (LinearLayout) findViewById(R.id.titleimage);
+        desctxt = (LinearLayout) findViewById(R.id.titletxt);
         uptodown = AnimationUtils.loadAnimation(this,R.anim.uptodown);
         downtoup = AnimationUtils.loadAnimation(this,R.anim.downtoup);
-        titleimage.setAnimation(downtoup);
-        titletxt.setAnimation(uptodown);
+        descimage.setAnimation(downtoup);
+        desctxt.setAnimation(uptodown);
 
 
 
