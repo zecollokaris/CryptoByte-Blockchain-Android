@@ -1,43 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:id="@+id/titleimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="140sp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="186dp"
+            android:layout_height="159dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/cryptologoorigi" />
+
+    </LinearLayout>
 
 
-    <TextView
-        app:fontFamily="@font/monotonregular"
-        android:id="@+id/splashText"
-        android:layout_width="300sp"
-        android:layout_height="37dp"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true"
-        android:text="CryptoByte"
-        android:textAlignment="center"
-        android:textSize="25sp"
-        android:textColor="@color/colorAccent"/>
+    <LinearLayout
+        android:id="@+id/titletxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/splashDesc"
-        android:layout_width="500sp"
-        android:layout_height="37sp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="199sp"
-        android:text="A Trusted Source Of Live CryptoCurrency Price Charts"
-        android:textAlignment="center"
-        android:textColor="@color/colorAccent"
-        android:textSize="16sp"
-        app:fontFamily="@font/reeniebeanie" />
+        <TextView
+            app:fontFamily="@font/monotonregular"
+            android:id="@+id/splashText"
+            android:layout_width="300sp"
+            android:layout_height="37dp"
+            android:text="CryptoByte"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/colorAccent"/>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="186dp"
-        android:layout_height="159dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="126dp"
-        app:srcCompat="@drawable/cryptologoorigi" />
-</RelativeLayout>
+        <TextView
+            android:id="@+id/splashDesc"
+            android:layout_width="500sp"
+            android:layout_height="37sp"
+            android:layout_gravity="center"
+            android:text="A Trusted Source Of Live CryptoCurrency Price Charts"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            app:fontFamily="@font/reeniebeanie"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
