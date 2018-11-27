@@ -68,8 +68,29 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 - For more info about the API check out the API Section.
 
 
+
+
 ## COIN MARKET API
 
+For CryptoByte Gson components were used to parse JSON into Java objects.
+
+Gson is an open source Java library to serialize and deserialize Java objects to JSON.
+
+The benefit you get with GSON is that object mapping can save the time spent writing code.
+
+Click here to Check out :point_right: **[Coin Market API](https://coinmarketcap.com/api/)**
+
+### API DESCRIPTION
+
+**Ticker**
+
+This endpoint displays ticker data for a specific cryptocurrency. Use the "id" field from the Listings endpoint in the URL.
+
+**Global Data**
+
+This endpoint displays the global data found at the top of coinmarketcap.com.
+
+**Limits**
 
 
 
