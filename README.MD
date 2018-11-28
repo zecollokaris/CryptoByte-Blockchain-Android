@@ -4,7 +4,7 @@
 
 This is a Digital Currency Application displaying market price listing based on trade volume and market capitalization.
 
-###INSPIRATION
+### INSPIRATION
 
 Recently I've had a particularly sparked interest in Digital Currency Specifically cryptocurrency.
 
