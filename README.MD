@@ -40,7 +40,7 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 
 
-### TECHNOLOGIES USED:
+## TECHNOLOGIES USED:
 
 1. **[Java](https://java.com/en/download/)**
 
@@ -66,12 +66,29 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 - For more info about the API check out the API Section below.
 
-6. **[FireBAse](https://firebase.google.com/)**
+6. **[FireBase](https://firebase.google.com/)**
 
-- 
+- **Was used to authenticate users and register users and ensure user is logged in to run the application**
 
+- FireBase is a NoSQL **cloud database**. Data is synced across all clients in realtime, and remains available when your app goes offline. The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
 
+## LIBRARIES USED TO NOTE.
 
+1. **[GSON](https://github.com/google/gson)**
+
+- **GSON was used in the API to convert Java Objects into JSON and back**
+
+- Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a **JSON string** to an **equivalent** **Java object**. Gson can work with arbitrary Java objects including pre-existing objects that you do not have source code of.
+
+2. **[okHttp 3](https://github.com/square/okhttp)**
+
+- OkHttp is a third party library used for sending and receiving HTTP-based network requests.
+
+3. **[Picasso](https://github.com/square/okhttp)**
+
+- Picasso was used to display cryptocurrency logos.
+
+- **Picasso** is an image library for **Android**.It caters to image loading and processing. It simplifies the process of displaying images from external locations
 
 ## COIN MARKET CAP API
 
