@@ -1,12 +1,23 @@
-# CRYPTOBYTE! :moneybag:
+# CRYPTOBYTE! :moneybag: :arrow_right: :iphone:
 
 ## DESCRIPTION
 
-This is a Digital Currency exchange Application.
+This is a Digital Currency Application displaying market price listing based on trade volume and market capitalization.
 
-## Author
+###INSPIRATION
 
-Collins Kariuki
+Recently I've had a particularly sparked interest in Digital Currency Specifically cryptocurrency.
+
+If u asked me I believe it is the way to go and Blockchain Technology might be the Second best invention after the Internet invention.
+
+**However Lets Talk Code!** :computer:
+
+This project came to mind after Inspiration by [Brian Armstrong's](https://github.com/barmstrong) project [Bitcoin-Android](https://github.com/barmstrong/bitcoin-android). 
+
+I wanted to challenge myself with code as I try wrap my head around the Cryptocurrency world.
+
+I believe I have achieved that but I still have a long way to go in understanding this masive world as I strive valiently.
+
 
 ## PRE-REQUISITES.
 
@@ -40,31 +51,60 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 
 
+## IMPORTANT TERMS TO TAKE NOTE. :smiley:
+
+**Some Basic knowlegde useful to understanding the project or just for fun**
+
+- **What is "Market Capitalization" and how is it calculated?**
+
+***Market Capitalization*** is one way to rank the relative size of a cryptocurrency. It's calculated by multiplying the Price by the Circulating Supply.
+
+Market Cap = Price X Circulating Supply.
+
+- **What is "Circulating Supply"**
+
+***Circulating Supply*** is the best approximation of the number of coins that are circulating in the market and in the general public's hands.
+
+- **What is "Total Supply"**
+
+***Total Supply*** is the total amount of coins in existence right now (minus any coins that have been verifiably burned).
+
+- **What is "Max Supply"**
+
+***Max Supply*** is the best approximation of the maximum amount of coins that will ever exist in the lifetime of the cryptocurrency.
+
+- **Why is the Circulating Supply used in determining the market capitalization instead of Total Supply?**
+
+Coins that are locked, reserved, or not able to be sold on the public market are coins that can't affect the price and thus should not be allowed to affect the market capitalization as well. The method of using the Circulating Supply is analogous to the method of using public float for determining the market capitalization of companies in traditional investing.
+
+
+
+
 ## TECHNOLOGIES USED:
 
 1. **[Java](https://java.com/en/download/)**
 
-- **source language.**
+**source language.**
 
 2. **[Gradle](https://gradle.org/)**
 
-- **For dependency management and running tasks.**
+**For dependency management and running tasks.**
 
 3. **[Android SDK](https://developer.android.com/studio/)**
 
-- **For providing all the necessary developer tools to build, test, and debug Android applications on Windows, Mac or Linux.**
+**For providing all the necessary developer tools to build, test, and debug Android applications on Windows, Mac or Linux.**
 
 4. **[Android Build Tools](https://developer.android.com/studio/releases/build-tools)**
 
-- **For debugging, building, running and testing an Android applications.**
+**For debugging, building, running and testing an Android applications.**
 
 5. **[Coin Market Cap](https://coinmarketcap.com/api/documentation/v1/)**
 
-- **Coin Market Cap** is a platform which provides fast, reliable and unified data APIs to cryptocurrency markets.
+**Coin Market Cap** is a platform which provides fast, reliable and unified data APIs to cryptocurrency markets.
 
-- **Coin Market API** was used to get price listings on cryptocurrencies based on trade volume and market capitalization.
+**Coin Market API** was used to get price listings on cryptocurrencies based on trade volume and market capitalization.
 
-- For more info about the API check out the API Section below.
+For more info about the API check out the API Section below.
 
 6. **[FireBase](https://firebase.google.com/)**
 
@@ -95,7 +135,7 @@ Android Butterknife is a view binding tool that uses annotations to generate boi
 - **Picasso** is an image library for **Android**.It caters to image loading and processing. It simplifies the process of displaying images from external locations
 
 
-**[BUtterKnife](http://jakewharton.github.io/butterknife/)**
+**[ButterKnife](http://jakewharton.github.io/butterknife/)**
 
 Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
 
