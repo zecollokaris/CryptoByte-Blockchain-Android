@@ -1,7 +1,8 @@
+<p align="center">
+<img align="centre" width="500" src="Spec.md/Disp1.png" alt="Cryptobyte logo" />
+<p>
+
 # CRYPTOBYTE! :moneybag: :arrow_right: :iphone: 
-
-
-<img text-align="center" width="200" src="Spec.md/Disp1.png" alt="Cryptobyte logo" />
 
 ## DESCRIPTION
 
