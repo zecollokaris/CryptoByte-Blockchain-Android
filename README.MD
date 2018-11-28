@@ -10,7 +10,37 @@
 This is a Digital Currency Application displaying market price listing based on trade volume and market capitalization.
 
 
-### INSPIRATION
+## FEATURES
+
+This Application allows users to view Cryptocurrency prices and monitor their rise and drop.
+
+- User can **Register** and ***create an account***.
+
+- User can **Login** with the credentials used to ***sign up***.
+
+- User can **View Lists of Cryptocurrencies** ***with their prices.***
+
+- For the ***prices user can*** keep track of **Hourly** (1hr), **Daily** (24hr) & **Weekly** (7dy), **Percentage Drop or rise**.
+
+
+## FUTURE IMPLEMENTATIONS.
+
+- (Mainly Needed) **Update API** Used to the **lastest Version released [Version 2](https://coinmarketcap.com/api/)**.
+
+- **Attach Dashboard** in the navigation drawer to the ***Activity Displaying Lists of cryptocurrencies*** **(Coin Activity)**.
+
+- Add **Activity View for Favourites** and attach it to the ***Navigation Drawer in favourites section***. Favourites will be a place where users can **highlight coins they are interested in** or prefer and just get monitor them directly. Drag and drop will be prefered however other methods could be used.
+
+- Add **Activity View for User Profile** and ***attach it to the Navigation Drawer***. Here users can add their profile and maybe even list crypto's they are interested in.
+
+- **Add Daraja API** which is a **USSD mobile to mobile payment** however it only uses ***Safaricom service provider Sim***. this way maybe users can buy cryptocurrencies which will be loaded onto their accounts. It is fast and very effective especially in Kenya. Also very challenging to integrate.
+
+- **Add Paypal API** for payment this way users will not only be **limited to paying using mpesa** as not everyone can access Mpesa outside kenya. **Other methods better than paypal may also be explored**.
+
+- **Add About page** that will always be updated ***to tell users what they can do with the app***, and also the offer useful information about the product About page will be linked to about section in navigation drawer.
+
+
+## INSPIRATION
 
 Recently I've had a particularly sparked interest in Digital Currency Specifically cryptocurrency.
 
