@@ -46,7 +46,7 @@ Recently I've had a particularly sparked interest in Digital Currency Specifical
 
 If you asked me I believe it is the way to go as Blockchain Technology might be the Second best invention after the Internet invention.
 
-However I mihght be wrong too. when it comes to technology there is alwa
+However I might be wrong too. When it comes to technology there is always a complexity to determine its future as things evolve really quickly.
 
 **However Lets Talk Code!** :computer:
 
