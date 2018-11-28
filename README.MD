@@ -9,31 +9,6 @@
 
 This is a Digital Currency Application displaying market price listing based on trade volume and market capitalization.
 
-#### Splash Page.
-
-<p align="center">
-<img align="left" width="270" src="Spec.md/Disp2.png" alt="Cryptobyte logo" />
-<img align="centre" width="270" src="Spec.md/Disp3.png" alt="Welcome page" />
-<img align="right" width="270" src="Spec.md/Disp12.png" alt="Second welcome page" />
-<p>
-
-#### Login & Register.
-
-<p align="center">
-<img align="left" width="270" src="Spec.md/Disp4.png" alt="Login page" />
-<img align="centre" width="270" src="Spec.md/Disp5.png" alt="Register Page" />
-<img align="right" width="270" src="Spec.md/Disp13.png" alt="Authenticating login" />
-<p>
-
-
-#### Home Page.
-
-<p align="center">
-<img align="left" width="270" src="Spec.md/Disp6.png" alt="Navigation Drawer" />
-<img align="centre" width="270" src="Spec.md/Disp11.png" alt="Home page" />
-<img align="right" width="270" src="Spec.md/Disp8.png" alt="Home page 2" />
-<p>
-
 
 ### INSPIRATION
 
@@ -109,6 +84,33 @@ Market Cap = Price X Circulating Supply.
 Coins that are locked, reserved, or not able to be sold on the public market are coins that can't affect the price and thus should not be allowed to affect the market capitalization as well. The method of using the Circulating Supply is analogous to the method of using public float for determining the market capitalization of companies in traditional investing.
 
 
+#### Splash Page.
+
+<p align="center">
+<img align="left" width="270" src="Spec.md/Disp2.png" alt="Cryptobyte logo" />
+<img align="centre" width="270" src="Spec.md/Disp3.png" alt="Welcome page" />
+<img align="right" width="270" src="Spec.md/Disp12.png" alt="Second welcome page" />
+<p>
+
+#### Login & Register.
+
+<p align="center">
+<img align="left" width="270" src="Spec.md/Disp4.png" alt="Login page" />
+<img align="centre" width="270" src="Spec.md/Disp5.png" alt="Register Page" />
+<img align="right" width="270" src="Spec.md/Disp13.png" alt="Authenticating login" />
+<p>
+
+
+#### Home Page.
+
+<p align="center">
+<img align="left" width="270" src="Spec.md/Disp6.png" alt="Navigation Drawer" />
+<img align="centre" width="270" src="Spec.md/Disp11.png" alt="Home page" />
+<img align="right" width="270" src="Spec.md/Disp8.png" alt="Home page 2" />
+<p>
+
+
+
 ## TECHNOLOGIES USED:
 
 1. **[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)**
@@ -145,9 +147,9 @@ For more info about the API check out the API Section below.
 
 7. **[FireBase](https://firebase.google.com/)**
 
-- **Was used to authenticate users and register users and ensure user is logged in to run the application**
+**Was used to authenticate users and register users and ensure user is logged in to run the application**
 
-- FireBase is a NoSQL **cloud database**. Data is synced across all clients in realtime, and remains available when your app goes offline. The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
+FireBase is a NoSQL **cloud database**. Data is synced across all clients in realtime, and remains available when your app goes offline. The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
 
 
 ## LIBRARIES TO NOTE.
@@ -169,7 +171,7 @@ For more info about the API check out the API Section below.
 - **Picasso** is an image library for **Android**.It caters to image loading and processing. It simplifies the process of displaying images from external locations
 
 
-**[ButterKnife](http://jakewharton.github.io/butterknife/)**
+4. **[ButterKnife](http://jakewharton.github.io/butterknife/)**
 
 Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
 
@@ -226,7 +228,7 @@ Link:-> ```https://github.com/zecollokaris/CryptoByte-Blockchain-Android```
 
 ## How to contribute
 
-All contributions are welcome, from code to documentation to graphics to design suggestions to bug reports. Please use GitHub to its fullest-- contribute Pull Requests, contribute tutorials or other wiki content-- whatever you have to offer, we can use it!
+All contributions are welcome, from code to documentation to graphics to design suggestions to bug reports. Please use GitHub to its fullest. Whatever you have to offer, we can use it!
 
 
 ## Support & Contact
