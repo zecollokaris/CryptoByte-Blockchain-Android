@@ -1,4 +1,4 @@
-# CRYPTOBYTE! :moneybag: :arrow_right: :iphone: ![](Spec.md/Disp1.png)
+# CRYPTOBYTE! :moneybag: :arrow_right: :iphone: <img style="float: right;" src="Spec.md/Disp1.png" alt="Cryptobyte logo" />
 
 ## DESCRIPTION
 
