@@ -1,4 +1,4 @@
-# CRYPTOBYTE! :moneybag:
+# CRYPTOBYTE! :moneybag: :arrow_right: :iphone:
 
 ## DESCRIPTION
 
@@ -6,6 +6,7 @@ This is a Digital Currency Application displaying market price listing based on 
 
 ## IMPORTANT TERMS TO TAKE NOTE. :smiley:
 
+**Some Basic knowlegde useful to understanding the project or just for fun**
 
 - **What is "Market Capitalization" and how is it calculated?**
 
