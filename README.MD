@@ -9,6 +9,24 @@
 
 This is a Digital Currency Application displaying market price listing based on trade volume and market capitalization.
 
+#### SPLASH PAGE
+
+<p align="center">
+<img align="left" width="270" src="Spec.md/Disp2.png" alt="Cryptobyte logo" />
+<img align="centre" width="270" src="Spec.md/Disp3.png" alt="Cryptobyte logo" />
+<img align="right" width="270" src="Spec.md/Disp12.png" alt="Cryptobyte logo" />
+<p>
+
+#### LOGIN AND REGISTER
+
+<p align="center">
+<img align="left" width="270" src="Spec.md/Disp2.png" alt="Cryptobyte logo" />
+<img align="centre" width="270" src="Spec.md/Disp3.png" alt="Cryptobyte logo" />
+<img align="right" width="270" src="Spec.md/Disp12.png" alt="Cryptobyte logo" />
+<p>
+
+
+
 ### INSPIRATION
 
 Recently I've had a particularly sparked interest in Digital Currency Specifically cryptocurrency.
