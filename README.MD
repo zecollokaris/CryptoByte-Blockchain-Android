@@ -44,27 +44,27 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 1. **[Java](https://java.com/en/download/)**
 
-- **source language.**
+**source language.**
 
 2. **[Gradle](https://gradle.org/)**
 
-- **For dependency management and running tasks.**
+**For dependency management and running tasks.**
 
 3. **[Android SDK](https://developer.android.com/studio/)**
 
-- **For providing all the necessary developer tools to build, test, and debug Android applications on Windows, Mac or Linux.**
+**For providing all the necessary developer tools to build, test, and debug Android applications on Windows, Mac or Linux.**
 
 4. **[Android Build Tools](https://developer.android.com/studio/releases/build-tools)**
 
-- **For debugging, building, running and testing an Android applications.**
+**For debugging, building, running and testing an Android applications.**
 
 5. **[Coin Market Cap](https://coinmarketcap.com/api/documentation/v1/)**
 
-- **Coin Market Cap** is a platform which provides fast, reliable and unified data APIs to cryptocurrency markets.
+**Coin Market Cap** is a platform which provides fast, reliable and unified data APIs to cryptocurrency markets.
 
-- **Coin Market API** was used to get price listings on cryptocurrencies based on trade volume and market capitalization.
+**Coin Market API** was used to get price listings on cryptocurrencies based on trade volume and market capitalization.
 
-- For more info about the API check out the API Section below.
+For more info about the API check out the API Section below.
 
 6. **[FireBase](https://firebase.google.com/)**
 
