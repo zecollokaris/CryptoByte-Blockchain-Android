@@ -44,7 +44,8 @@ This Application allows users to view Cryptocurrency prices and monitor their ri
 
 Recently I've had a particularly sparked interest in Digital Currency Specifically cryptocurrency.
 
-If you asked me I believe it is the way to go and Blockchain Technology might be the Second best invention after the Internet invention.
+If you asked me I believe it is the way to go as Blockchain Technology might be the Second best invention after the Internet invention.
+
 
 **However Lets Talk Code!** :computer:
 
