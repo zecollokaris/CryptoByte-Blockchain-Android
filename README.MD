@@ -72,6 +72,10 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 - FireBase is a NoSQL **cloud database**. Data is synced across all clients in realtime, and remains available when your app goes offline. The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
 
+
+
+Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
+
 ## LIBRARIES USED TO NOTE.
 
 1. **[GSON](https://github.com/google/gson)**
@@ -89,6 +93,11 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 - Picasso was used to display cryptocurrency logos.
 
 - **Picasso** is an image library for **Android**.It caters to image loading and processing. It simplifies the process of displaying images from external locations
+
+
+**[BUtterKnife](http://jakewharton.github.io/butterknife/)**
+
+Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
 
 ## COIN MARKET CAP API
 
@@ -128,7 +137,7 @@ All 'last_updated' fields are [unix timestamps](https://en.wikipedia.org/wiki/Un
 
 2. You need to get into the Coin-Base-BlockChain-Android Repository.
 
-Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
+Link:-> ```https://github.com/zecollokaris/CryptoByte-Blockchain-Android```
 
 3. From there you can access CryptoByte.
 
@@ -138,7 +147,7 @@ Link:-> ```https://github.com/zecollokaris/Coin-Base-Blockchain-Android```
 
 6. If you have all the **Pre-requisites**
 
-7. Open your Editor and run the Application.
+7. Open your Android Studio Editor and run the Application.
 
 
 ## Support & Contact
