@@ -9,7 +9,7 @@
 
 This is a Digital Currency Application displaying market price listing based on trade volume and market capitalization.
 
-#### SPLASH PAGE
+#### Splash Page.
 
 <p align="center">
 <img align="left" width="270" src="Spec.md/Disp2.png" alt="Cryptobyte logo" />
@@ -17,14 +17,22 @@ This is a Digital Currency Application displaying market price listing based on 
 <img align="right" width="270" src="Spec.md/Disp12.png" alt="Cryptobyte logo" />
 <p>
 
-#### LOGIN AND REGISTER
+#### Login & Register.
 
 <p align="center">
-<img align="left" width="270" src="Spec.md/Disp2.png" alt="Cryptobyte logo" />
-<img align="centre" width="270" src="Spec.md/Disp3.png" alt="Cryptobyte logo" />
-<img align="right" width="270" src="Spec.md/Disp12.png" alt="Cryptobyte logo" />
+<img align="left" width="270" src="Spec.md/Disp4.png" alt="Cryptobyte logo" />
+<img align="centre" width="270" src="Spec.md/Disp5.png" alt="Cryptobyte logo" />
+<img align="right" width="270" src="Spec.md/Disp13.png" alt="Cryptobyte logo" />
 <p>
 
+
+#### Home Page.
+
+<p align="center">
+<img align="left" width="270" src="Spec.md/Disp6.png" alt="Cryptobyte logo" />
+<img align="centre" width="270" src="Spec.md/Disp5.png" alt="Cryptobyte logo" />
+<img align="right" width="270" src="Spec.md/Disp13.png" alt="Cryptobyte logo" />
+<p>
 
 
 ### INSPIRATION
