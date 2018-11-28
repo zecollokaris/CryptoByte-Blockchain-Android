@@ -6,7 +6,17 @@ This is a Digital Currency Application displaying market price listing based on 
 
 ###INSPIRATION
 
-This project came to mind aft
+Recently I've had a particularly sparked interest in Digital Currency Specifically cryptocurrency.
+
+If u asked me I believe it is the way to go and Blockchain Technology might be the Second best invention after the Internet invention.
+
+**However Lets Talk Code!** :computer:
+
+This project came to mind after Inspiration by [Brian Armstrong's](https://github.com/barmstrong) project [Bitcoin-Android](https://github.com/barmstrong/bitcoin-android). 
+
+I wanted to challenge myself with code as I try wrap my head around the Cryptocurrency world.
+
+I believe I have achieved that but I still have a long way to go in understanding this masive world as I strive valiently.
 
 
 ## PRE-REQUISITES.
