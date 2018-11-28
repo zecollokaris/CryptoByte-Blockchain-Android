@@ -6,6 +6,8 @@ This is a Digital Currency Application displaying market price listing based on 
 
 ###INSPIRATION
 
+This project came to mind aft
+
 
 ## PRE-REQUISITES.
 
