@@ -33,9 +33,11 @@ This Application allows users to view Cryptocurrency prices and monitor their ri
 
 - Add **Activity View for User Profile** and ***attach it to the Navigation Drawer***. Here users can add their profile and maybe even list crypto's they are interested in.
 
-- Add Daraja API which is a USSD mobile to mobile payment however it only uses Safaricom service provider Sim. this way maybe users can buy cryptocurrencies which will be loaded onto their accounts.
+- Add Daraja API which is a USSD mobile to mobile payment however it only uses Safaricom service provider Sim. this way maybe users can buy cryptocurrencies which will be loaded onto their accounts. It is fast and very effective especially in Kenya. Also very challenging to integrate.
 
-- Add Paypal API for payment this way users 
+- Add Paypal API for payment this way users will not only be limited to paying using mpesa as not everyone can access Mpesa outside kenya. Other methods better than paypal may also be explored.
+
+
 
 ## INSPIRATION
 
