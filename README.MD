@@ -2,7 +2,20 @@
 
 ## DESCRIPTION
 
-This is a Digital Currency exchange Application.
+This is a Digital Currency Application displaying market price listing based on trade volume and market capitalization.
+
+## IMPORTANT TERMS TO TAKE NOTE. :smiley:
+
+
+- **What is "Market Capitalization" and how is it calculated?**
+
+***Market Capitalization*** is one way to rank the relative size of a cryptocurrency. It's calculated by multiplying the Price by the Circulating Supply.
+
+Market Cap = Price X Circulating Supply.
+
+- **What is "Circulating Supply"**
+
+***Circulating Supply*** is the best approximation of the number of coins that are circulating in the market and in the general public's hands.
 
 ## Author
 
