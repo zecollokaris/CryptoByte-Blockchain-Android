@@ -4,10 +4,8 @@
 
 # CRYPTOBYTE! :moneybag: :arrow_right: :iphone: 
 
-![](Spec.md/Vida1.mp4)
-
 <p align="center">
-![](Spec.md/Vida1.mp4)
+![](Spec.md/screenrecord.gif)
 <p>
 
 ## DESCRIPTION
