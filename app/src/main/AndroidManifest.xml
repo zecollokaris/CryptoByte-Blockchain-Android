@@ -21,7 +21,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".CoinActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar">
+            <!--@style/Theme.AppCompat.NoActionBar-->
         </activity>
     </application>
 

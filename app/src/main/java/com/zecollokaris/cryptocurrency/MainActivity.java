@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         private TextView[] mDots;
         private SliderAdapter sliderAdapter;
 
+
     //Buttons
     private Button mNextBtn;
     private Button mBackBtn;

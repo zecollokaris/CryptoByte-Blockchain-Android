@@ -11,7 +11,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="150sp"
-        android:background="@color/colorCoinBackground">
+        android:background="@color/colorCoinBackground"
+        >
 
 
         <!--CryptoCurrency Image-->
