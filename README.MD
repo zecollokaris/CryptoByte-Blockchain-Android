@@ -95,7 +95,7 @@ Android Butterknife is a view binding tool that uses annotations to generate boi
 - **Picasso** is an image library for **Android**.It caters to image loading and processing. It simplifies the process of displaying images from external locations
 
 
-**[BUtterKnife](http://jakewharton.github.io/butterknife/)**
+**[ButterKnife](http://jakewharton.github.io/butterknife/)**
 
 Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
 
