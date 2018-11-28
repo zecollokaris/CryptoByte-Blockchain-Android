@@ -89,8 +89,8 @@
       <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.MD">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="37" column="159" lean-forward="false" selection-start-line="37" selection-start-column="159" selection-end-line="37" selection-end-column="159" />
+            <state relative-caret-position="342">
+              <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -2238,8 +2238,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="550" />
-    <option name="y" value="25" />
+    <option name="x" value="534" />
+    <option name="y" value="-4" />
     <option name="width" value="935" />
     <option name="height" value="878" />
   </component>
@@ -2736,8 +2736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="37" column="159" lean-forward="false" selection-start-line="37" selection-start-column="159" selection-end-line="37" selection-end-column="159" />
+        <state relative-caret-position="342">
+          <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
           <folding />
         </state>
       </provider>

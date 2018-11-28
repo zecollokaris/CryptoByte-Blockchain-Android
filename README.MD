@@ -27,15 +27,15 @@ This Application allows users to view Cryptocurrency prices and monitor their ri
 
 - (Mainly Needed) **Update API** Used to the **lastest Version released [Version 2](https://coinmarketcap.com/api/)**.
 
-- Attach Dashboard in the navigation drawer to the Activity Displaying Lists of cryptocurrencies (Coin Activity).
+- **Attach Dashboard** in the navigation drawer to the ***Activity Displaying Lists of cryptocurrencies*** **(Coin Activity)**.
 
-- Add Activity View for Favourites and attach it to the Navigation Drawer in favourites section.
+- Add **Activity View for Favourites** and attach it to the ***Navigation Drawer in favourites section***. Favourites will be a place where users can **highlight coins they are interested in** or prefer and just get monitor them directly. Drag and drop will be prefered however other methods could be used.
 
-Favourites will be a place where users can highlight coins they are interested or prefer and just get monitor them directly.
+- Add **Activity View for User Profile** and ***attach it to the Navigation Drawer***. Here users can add their profile and maybe even list crypto's they are interested in.
 
-Drag and drop will be prefered however other methods could be used.
+- Add Daraja API which is a USSD mobile to mobile payment however it only uses Safaricom service provider Sim. this way maybe users can buy cryptocurrencies which will be loaded onto their accounts.
 
-- Add Activity View for User Profile and attach it to the Navigation Drawer. Here users can add their profile and mybe even list crypo's they are interested in.
+- Add Paypal API for payment this way users 
 
 ## INSPIRATION
 
