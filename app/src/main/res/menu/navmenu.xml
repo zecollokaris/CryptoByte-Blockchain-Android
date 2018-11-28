@@ -17,7 +17,7 @@
             android:title="Profile">
         </item>
     </group>
-    <item android:title="Apllication">
+    <item android:title="Application">
         <menu>
             <item android:id="@+id/navmpesa"
                 android:icon="@drawable/payment"
@@ -32,7 +32,6 @@
     </item>
 
     <item
-        android:id="@+id/btnLogout"
         android:icon="@drawable/logout"
         android:title="Logout"/>
 
