@@ -69,11 +69,11 @@ Market Cap = Price X Circulating Supply.
 
 ***Total Supply*** is the total amount of coins in existence right now (minus any coins that have been verifiably burned).
 
-**What is "Max Supply"**
+- **What is "Max Supply"**
 
 ***Max Supply*** is the best approximation of the maximum amount of coins that will ever exist in the lifetime of the cryptocurrency.
 
-**Why is the Circulating Supply used in determining the market capitalization instead of Total Supply?**
+- **Why is the Circulating Supply used in determining the market capitalization instead of Total Supply?**
 
 Coins that are locked, reserved, or not able to be sold on the public market are coins that can't affect the price and thus should not be allowed to affect the market capitalization as well. The method of using the Circulating Supply is analogous to the method of using public float for determining the market capitalization of companies in traditional investing.
 
@@ -110,9 +110,6 @@ For more info about the API check out the API Section below.
 
 - FireBase is a NoSQL **cloud database**. Data is synced across all clients in realtime, and remains available when your app goes offline. The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
 
-
-
-Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
 
 ## LIBRARIES TO NOTE.
 
