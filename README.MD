@@ -10,7 +10,28 @@
 This is a Digital Currency Application displaying market price listing based on trade volume and market capitalization.
 
 
-### INSPIRATION
+## FEATURES
+
+This Application allows users to view Cryptocurrency prices and monitor their rise and drop.
+
+- User can **Register** and ***create an account***.
+
+- User can **Login** with the credentials used to ***sign up***.
+
+- User can **View Lists of Cryptocurrencies** ***with their prices.***
+
+- For the ***prices user can*** keep track of **Hourly** (1hr), **Daily** (24hr) & **Weekly** (7dy), **Percentage Drop or rise**.
+
+
+## FUTURE IMPLEMENTATIONS.
+
+- Update API Used to the **lastest Version released Version 2**.
+
+- Add Activity View for User Profile and attach it to the Navigation Drawer.
+
+-
+
+## INSPIRATION
 
 Recently I've had a particularly sparked interest in Digital Currency Specifically cryptocurrency.
 
