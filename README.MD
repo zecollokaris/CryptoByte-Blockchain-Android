@@ -12,11 +12,11 @@ If u asked me I believe it is the way to go and Blockchain Technology might be t
 
 **However Lets Talk Code!** :computer:
 
-This project came to mind after Inspiration by [Brian Armstrong's](https://github.com/barmstrong) project [Bitcoin-Android](https://github.com/barmstrong/bitcoin-android). 
+**This project** came to mind after **Inspiration** by [Brian Armstrong's](https://github.com/barmstrong) project [Bitcoin-Android](https://github.com/barmstrong/bitcoin-android). 
 
-I wanted to challenge myself with code as I try wrap my head around the Cryptocurrency world.
+I wanted to challenge myself with code as I try wrap my head around the **Cryptocurrency world**.
 
-I believe I have achieved that but I still have a long way to go in understanding this masive world as I strive valiently.
+I believe I have achieved that but I still have a long way to go in **understanding this masive world** as I strive valiently.
 
 
 ## PRE-REQUISITES.
@@ -51,7 +51,7 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 
 
-## IMPORTANT TERMS TO TAKE NOTE. :smiley:
+### IMPORTANT TERMS TO TAKE NOTE. :smiley:
 
 **Some Basic knowlegde useful to understanding the project or just for fun**
 
