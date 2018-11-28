@@ -49,7 +49,6 @@ If you asked me I believe it is the way to go as Blockchain Technology might be 
 However I might be wrong too. When it comes to technology there is always a complexity to determine it's future as things evolve really quick. So pardon me if you read this 10 years from when I wrote this and discover I was terriblly wrong. :dizzy_face: My sincerest apologies. :smiley:
 
 
-
 **However Lets Talk Code!** :computer:
 
 **This project** came to mind after **Inspiration** by [Brian Armstrong's](https://github.com/barmstrong) project [Bitcoin-Android](https://github.com/barmstrong/bitcoin-android). 
