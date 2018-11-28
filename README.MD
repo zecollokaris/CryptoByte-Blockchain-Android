@@ -13,25 +13,25 @@ This is a Digital Currency Application displaying market price listing based on 
 
 <p align="center">
 <img align="left" width="270" src="Spec.md/Disp2.png" alt="Cryptobyte logo" />
-<img align="centre" width="270" src="Spec.md/Disp3.png" alt="Cryptobyte logo" />
-<img align="right" width="270" src="Spec.md/Disp12.png" alt="Cryptobyte logo" />
+<img align="centre" width="270" src="Spec.md/Disp3.png" alt="Welcome page" />
+<img align="right" width="270" src="Spec.md/Disp12.png" alt="Second welcome page" />
 <p>
 
 #### Login & Register.
 
 <p align="center">
-<img align="left" width="270" src="Spec.md/Disp4.png" alt="Cryptobyte logo" />
-<img align="centre" width="270" src="Spec.md/Disp5.png" alt="Cryptobyte logo" />
-<img align="right" width="270" src="Spec.md/Disp13.png" alt="Cryptobyte logo" />
+<img align="left" width="270" src="Spec.md/Disp4.png" alt="Login page" />
+<img align="centre" width="270" src="Spec.md/Disp5.png" alt="Register Page" />
+<img align="right" width="270" src="Spec.md/Disp13.png" alt="Authenticating login" />
 <p>
 
 
 #### Home Page.
 
 <p align="center">
-<img align="left" width="270" src="Spec.md/Disp6.png" alt="Cryptobyte logo" />
-<img align="centre" width="270" src="Spec.md/Disp5.png" alt="Cryptobyte logo" />
-<img align="right" width="270" src="Spec.md/Disp13.png" alt="Cryptobyte logo" />
+<img align="left" width="270" src="Spec.md/Disp6.png" alt="Navigation Drawer" />
+<img align="centre" width="270" src="Spec.md/Disp11.png" alt="Home page" />
+<img align="right" width="270" src="Spec.md/Disp8.png" alt="Home page 2" />
 <p>
 
 
