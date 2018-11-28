@@ -25,11 +25,15 @@ This Application allows users to view Cryptocurrency prices and monitor their ri
 
 ## FUTURE IMPLEMENTATIONS.
 
-- Update API Used to the **lastest Version released Version 2**.
+- (Mainly Needed) **Update API** Used to the **lastest Version released [Version 2](https://coinmarketcap.com/api/)**.
 
-- Add Activity View for User Profile and attach it to the Navigation Drawer.
+- Attach Dashboard in the navigation drawer to the Activity Displaying Lists of cryptocurrencies.
 
--
+- Add Activity View for Favourites and attach it to the Navigation Drawer in favourites section.
+
+Favourites will be a place where users can highlight coins they are interested or prefer and just get monitor them directly.
+
+- Add Activity View for User Profile and attach it to the Navigation Drawer. Here users can add their .
 
 ## INSPIRATION
 
