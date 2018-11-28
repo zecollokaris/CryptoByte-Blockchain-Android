@@ -1,5 +1,5 @@
 <p align="center">
-<img align="centre" width="400" src="Spec.md/Disp1.png" alt="Cryptobyte logo" />
+<img align="centre" width="300" src="Spec.md/Disp1.png" alt="Cryptobyte logo" />
 <p>
 
 # CRYPTOBYTE! :moneybag: :arrow_right: :iphone: 
@@ -87,26 +87,26 @@ Coins that are locked, reserved, or not able to be sold on the public market are
 #### Splash Page.
 
 <p align="center">
-<img align="left" width="270" src="Spec.md/Disp2.png" alt="Cryptobyte logo" />
-<img align="centre" width="270" src="Spec.md/Disp3.png" alt="Welcome page" />
-<img align="right" width="270" src="Spec.md/Disp12.png" alt="Second welcome page" />
+<img align="left" width="250" src="Spec.md/Disp2.png" alt="Cryptobyte logo" />
+<img align="centre" width="250" src="Spec.md/Disp3.png" alt="Welcome page" />
+<img align="right" width="250" src="Spec.md/Disp12.png" alt="Second welcome page" />
 <p>
 
 #### Login & Register.
 
 <p align="center">
-<img align="left" width="270" src="Spec.md/Disp4.png" alt="Login page" />
-<img align="centre" width="270" src="Spec.md/Disp5.png" alt="Register Page" />
-<img align="right" width="270" src="Spec.md/Disp13.png" alt="Authenticating login" />
+<img align="left" width="250" src="Spec.md/Disp4.png" alt="Login page" />
+<img align="centre" width="250" src="Spec.md/Disp5.png" alt="Register Page" />
+<img align="right" width="250" src="Spec.md/Disp13.png" alt="Authenticating login" />
 <p>
 
 
 #### Home Page.
 
 <p align="center">
-<img align="left" width="270" src="Spec.md/Disp6.png" alt="Navigation Drawer" />
-<img align="centre" width="270" src="Spec.md/Disp11.png" alt="Home page" />
-<img align="right" width="270" src="Spec.md/Disp8.png" alt="Home page 2" />
+<img align="left" width="250" src="Spec.md/Disp6.png" alt="Navigation Drawer" />
+<img align="centre" width="250" src="Spec.md/Disp11.png" alt="Home page" />
+<img align="right" width="250" src="Spec.md/Disp8.png" alt="Home page 2" />
 <p>
 
 
