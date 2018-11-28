@@ -136,13 +136,13 @@ Android Butterknife is a view binding tool that uses annotations to generate boi
 
 ## COIN MARKET CAP API
 
-Coin Market API Provides crypto market data endpoints market price listing based on trade volume and market capitalization.
+**Coin Market API** Provides crypto market data endpoints **market price listing based on trade volume and market capitalization**.
 
-For CryptoByte Gson components were used to parse JSON into Java objects.
+For CryptoByte **Gson components were used to parse JSON into Java objects**.
 
-Gson is an open source Java library to serialize and deserialize Java objects to JSON.
+**Gson** is an open source **Java library to serialize and deserialize Java objects to JSON**.
 
-The benefit you get with GSON is that object mapping can save the time spent writing code.
+The benefit you get with GSON is that **object mapping can save the time spent writing code**.
 
 Click here to Check out :point_right: **[Coin Market API](https://coinmarketcap.com/api/)**
 
