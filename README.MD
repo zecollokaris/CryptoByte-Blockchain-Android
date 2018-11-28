@@ -4,6 +4,8 @@
 
 # CRYPTOBYTE! :moneybag: :arrow_right: :iphone: 
 
+![](Spec.md/Vida1.mp4)
+
 
 ## DESCRIPTION
 
