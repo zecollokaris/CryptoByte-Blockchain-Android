@@ -224,6 +224,11 @@ Link:-> ```https://github.com/zecollokaris/CryptoByte-Blockchain-Android```
 7. Open your **Android Studio Editor and run the Application**.
 
 
+## How to contribute
+
+All contributions are welcome, from code to documentation to graphics to design suggestions to bug reports. Please use GitHub to its fullest-- contribute Pull Requests, contribute tutorials or other wiki content-- whatever you have to offer, we can use it!
+
+
 ## Support & Contact
 
 - Mobile number: (+254) 798731203
