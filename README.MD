@@ -6,6 +6,9 @@
 
 ![](Spec.md/Vida1.mp4)
 
+<p align="center">
+![](Spec.md/Vida1.mp4)
+<p>
 
 ## DESCRIPTION
 
