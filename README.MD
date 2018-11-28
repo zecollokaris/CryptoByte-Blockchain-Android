@@ -55,25 +55,25 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 **Some Basic knowlegde useful to understanding the project or just for fun**
 
-- **What is "Market Capitalization" and how is it calculated?**
+**What is "Market Capitalization" and how is it calculated?**
 
 ***Market Capitalization*** is one way to rank the relative size of a cryptocurrency. It's calculated by multiplying the Price by the Circulating Supply.
 
 Market Cap = Price X Circulating Supply.
 
-- **What is "Circulating Supply"**
+**What is "Circulating Supply"**
 
 ***Circulating Supply*** is the best approximation of the number of coins that are circulating in the market and in the general public's hands.
 
-- **What is "Total Supply"**
+**What is "Total Supply"**
 
 ***Total Supply*** is the total amount of coins in existence right now (minus any coins that have been verifiably burned).
 
-- **What is "Max Supply"**
+**What is "Max Supply"**
 
 ***Max Supply*** is the best approximation of the maximum amount of coins that will ever exist in the lifetime of the cryptocurrency.
 
-- **Why is the Circulating Supply used in determining the market capitalization instead of Total Supply?**
+**Why is the Circulating Supply used in determining the market capitalization instead of Total Supply?**
 
 Coins that are locked, reserved, or not able to be sold on the public market are coins that can't affect the price and thus should not be allowed to affect the market capitalization as well. The method of using the Circulating Supply is analogous to the method of using public float for determining the market capitalization of companies in traditional investing.
 
