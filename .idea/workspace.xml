@@ -10,19 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3317874-d367-4322-8321-0a539b1ddab1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/crptostart.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/crypto1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/crypto2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/crypto3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/crypto5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/cryptonav.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/login.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/photos_device.png" afterPath="$PROJECT_DIR$/Spec.md/photos_device.png" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/splash.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Spec.md/welcome.png" afterPath="" />
-    </list>
+    <list default="true" id="d3317874-d367-4322-8321-0a539b1ddab1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/app/build/intermediates/assets/" />
