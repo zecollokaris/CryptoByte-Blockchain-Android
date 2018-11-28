@@ -78,8 +78,6 @@ Market Cap = Price X Circulating Supply.
 Coins that are locked, reserved, or not able to be sold on the public market are coins that can't affect the price and thus should not be allowed to affect the market capitalization as well. The method of using the Circulating Supply is analogous to the method of using public float for determining the market capitalization of companies in traditional investing.
 
 
-
-
 ## TECHNOLOGIES USED:
 
 1. **[Java](https://java.com/en/download/)**
@@ -116,7 +114,7 @@ For more info about the API check out the API Section below.
 
 Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
 
-## LIBRARIES USED TO NOTE.
+## LIBRARIES TO NOTE.
 
 1. **[GSON](https://github.com/google/gson)**
 
@@ -196,7 +194,7 @@ Link:-> ```https://github.com/zecollokaris/CryptoByte-Blockchain-Android```
 
 - Email Address: collo.kariss@gmail.com
 
-- github-username: zecollokaris
+- github-username: [zecollokaris](https://github.com/zecollokaris)
 
 ## LICENSE
 
