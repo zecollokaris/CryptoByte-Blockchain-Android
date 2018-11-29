@@ -5,7 +5,7 @@
 # CRYPTOBYTE! :moneybag: :arrow_right: :iphone: 
 
 <p align="center">
-![](https://media.giphy.com/media/vFKqnCdLPNOKc/Spec.md/screenrecord.gif)
+![](cryptovid.gif)
 <p>
 
 ## DESCRIPTION
