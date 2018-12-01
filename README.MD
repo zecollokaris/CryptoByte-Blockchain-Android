@@ -4,10 +4,9 @@
 
 # CRYPTOBYTE! :moneybag: :arrow_right: :iphone: 
 
-<img align="centre" width="300" src="https://user-images.githubusercontent.com/36197725/49332791-9a8b0f80-f5c4-11e8-86b5-fa2171734d7b.gif" alt="Cryptobyte logo" />
-
-![cryptovid](https://user-images.githubusercontent.com/36197725/49332791-9a8b0f80-f5c4-11e8-86b5-fa2171734d7b.gif)
-
+<p align="center">
+<img width="250" src="https://user-images.githubusercontent.com/36197725/49332791-9a8b0f80-f5c4-11e8-86b5-fa2171734d7b.gif" alt="Cryptobyte logo" />
+<p>
 
 ## DESCRIPTION
 
