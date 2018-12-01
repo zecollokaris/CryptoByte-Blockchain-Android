@@ -213,7 +213,7 @@ FireBase is a NoSQL **cloud database**. Data is synced across all clients in rea
 
 4. **[ButterKnife](http://jakewharton.github.io/butterknife/)**
 
-- Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
+- **Android Butterknife** is a **view binding tool** that uses annotations to **generate boilerplate code** for us.
 
 ## COIN MARKET CAP API
 
