@@ -27,9 +27,6 @@ This Application allows users to view Cryptocurrency prices and monitor their ri
 <img width="250" src="https://user-images.githubusercontent.com/36197725/49332791-9a8b0f80-f5c4-11e8-86b5-fa2171734d7b.gif" alt="Cryptobyte logo" />
 <p>
 
-<p align="center" font-weight="bold">
-Sorry for the low quality of Demo I had to compromise the quality to meet the 10mb Github limit
-</p>
 
 ## FUTURE IMPLEMENTATIONS.
 
@@ -214,7 +211,7 @@ FireBase is a NoSQL **cloud database**. Data is synced across all clients in rea
 
 4. **[ButterKnife](http://jakewharton.github.io/butterknife/)**
 
-Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
+- Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
 
 ## COIN MARKET CAP API
 
