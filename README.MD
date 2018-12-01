@@ -27,6 +27,10 @@ This Application allows users to view Cryptocurrency prices and monitor their ri
 <img width="250" src="https://user-images.githubusercontent.com/36197725/49332791-9a8b0f80-f5c4-11e8-86b5-fa2171734d7b.gif" alt="Cryptobyte logo" />
 <p>
 
+<p align="center">
+**Sorry for the low quality of Demo I had to compromise the quality to meet the 10mb Github limit**
+</p>
+
 ## FUTURE IMPLEMENTATIONS.
 
 - (Mainly Needed) **Update API** Used to the **lastest Version released [Version 2](https://coinmarketcap.com/api/)**.
