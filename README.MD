@@ -5,7 +5,7 @@
 # CRYPTOBYTE! :moneybag: :arrow_right: :iphone: 
 
 <p align="center">
-![](cryptovid.gif)
+![](Spec.md/cryptovid.gif)
 <p>
 
 ## DESCRIPTION
