@@ -5,6 +5,7 @@
 # CRYPTOBYTE! :moneybag: :arrow_right: :iphone: 
 
 
+
 ## DESCRIPTION
 
 This is a Digital Currency Application displaying market price listing based on trade volume and market capitalization.
@@ -21,6 +22,10 @@ This Application allows users to view Cryptocurrency prices and monitor their ri
 - User can **View Lists of Cryptocurrencies** ***with their prices.***
 
 - For the ***prices user can*** keep track of **Hourly** (1hr), **Daily** (24hr) & **Weekly** (7dy), **Percentage Drop or rise**.
+
+<p align="center">
+<img width="250" src="https://user-images.githubusercontent.com/36197725/49332791-9a8b0f80-f5c4-11e8-86b5-fa2171734d7b.gif" alt="Cryptobyte logo" />
+<p>
 
 
 ## FUTURE IMPLEMENTATIONS.
@@ -44,7 +49,12 @@ This Application allows users to view Cryptocurrency prices and monitor their ri
 
 Recently I've had a particularly sparked interest in Digital Currency Specifically cryptocurrency.
 
-If u asked me I believe it is the way to go and Blockchain Technology might be the Second best invention after the Internet invention.
+I hopefully one day intend to become a cryptocurency software developer to learn more about the technology.
+
+If you asked me I believe it is the way to go as Blockchain Technology might be the Second best invention after the Internet invention.
+
+However I might be wrong too. When it comes to technology there is always a complexity to determine it's future as things evolve really quick. So pardon me if you read this 10 years from when I wrote and discover I was terriblly wrong. :dizzy_face: My sincerest apologies. :smiley:
+
 
 **However Lets Talk Code!** :computer:
 
@@ -203,7 +213,7 @@ FireBase is a NoSQL **cloud database**. Data is synced across all clients in rea
 
 4. **[ButterKnife](http://jakewharton.github.io/butterknife/)**
 
-Android Butterknife is a view binding tool that uses annotations to generate boilerplate code for us.
+- **Android Butterknife** is a **view binding tool** that uses annotations to **generate boilerplate code** for us.
 
 ## COIN MARKET CAP API
 
