@@ -34,7 +34,7 @@ This Application allows users to view Cryptocurrency prices and monitor their ri
 
 - **Attach Dashboard** in the navigation drawer to the ***Activity Displaying Lists of cryptocurrencies*** **(Coin Activity)**.
 
-- Add **Activity View for Favourites** and attach it to the ***Navigation Drawer in favourites section***. Favourites will be a place where users can **highlight coins they are interested in** or prefer and just get monitor them directly. Drag and drop will be prefered however other methods could be used.
+- Add **Activity View for Favourites** and attach it to the ***Navigation Drawer in favourites section***.From favourites users can **highlight coins they are interested in** or prefer and just get monitor them directly. Drag and drop will be prefered however other methods could be used.
 
 - Add **Activity View for User Profile** and ***attach it to the Navigation Drawer***. Here users can add their profile and maybe even list crypto's they are interested in.
 
@@ -58,7 +58,7 @@ However I might be wrong too. When it comes to technology there is always a comp
 
 **However Lets Talk Code!** :computer:
 
-**This project** came to mind after **Inspiration** by [Brian Armstrong's](https://github.com/barmstrong) project [Bitcoin-Android](https://github.com/barmstrong/bitcoin-android). 
+**This project** came to mind after **Inspiration** by **[Brian Armstrong's](https://github.com/barmstrong)** project **[Bitcoin-Android](https://github.com/barmstrong/bitcoin-android)**. 
 
 I wanted to **challenge myself** with code as I try wrap my head around the **Cryptocurrency world**.
 
@@ -159,7 +159,7 @@ Coins that are locked, reserved, or not able to be sold on the public market are
 
 Photoshop was really useful in ***creating*** and ***enhancing photos***.
 
-**The Logo** ***was designed by photoshop** just as many ***images had to be redesigned to fit in to the application user expirience***. 
+**The Logo** **was designed by photoshop** just as many ***images had to be redesigned to fit in to the application user expirience***. 
 
 2. **[Java](https://java.com/en/download/)**
 
