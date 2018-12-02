@@ -177,7 +177,7 @@ Photoshop was really useful in ***creating*** and ***enhancing photos***.
 
 **For debugging, building, running and testing an Android applications.**
 
-6. **[Coin Market Cap](https://coinmarketcap.com/api/documentation/v1/)**
+6. **[Coin Market Cap API](https://coinmarketcap.com/api/documentation/v1/)**
 
 **Coin Market Cap** is a platform which provides fast, reliable and unified data APIs to cryptocurrency markets.
 
