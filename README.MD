@@ -51,7 +51,7 @@ Recently I've had a particularly sparked interest in Digital Currency Specifical
 
 I hopefully one day intend to become a cryptocurency software developer to learn more about the technology.
 
-If you asked me I believe it is the way to go as Blockchain Technology might be the Second best invention after the Internet invention.
+If you asked me I believe it is the way to go as Blockchain Technology might be the Second best invention after the Internet.
 
 However I might be wrong too. When it comes to technology there is always a complexity to determine it's future as things evolve really quick. So pardon me if you read this 10 years from when I wrote and discover I was terriblly wrong. :dizzy_face: My sincerest apologies. :smiley:
 
