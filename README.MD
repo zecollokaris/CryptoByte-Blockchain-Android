@@ -101,6 +101,10 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 **Some Basic knowlegde useful to understanding the project or just for fun**
 
+**What is the "Value of Bitcoin" ?**
+
+The ***Value of Bitcoin*** is actually the trust and utility of the Bitcoin network itself. In reality its just worth what someone is willing to pay for it.
+
 **What is "Market Capitalization" and how is it calculated?**
 
 ***Market Capitalization*** is one way to rank the relative size of a cryptocurrency. It's calculated by multiplying the Price by the Circulating Supply.
